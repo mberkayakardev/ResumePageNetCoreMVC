@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Akar.Portfolio.WebUI.props" />
+</Project>

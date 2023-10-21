@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MnPOd3vJ+zgJjtlqUpshBWIBTpdcGabDPbKzR1gYR5tmVEY9PBpZvjOH75djUN+iwHdM2b6gWGHKTEoko+kT5Q==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.Dtos\\Akar.Portfolio.Dtos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+  ],
+  "logs": []
+}

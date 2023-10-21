@@ -1,0 +1,356 @@
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\css\line-awesome.min.css
+Content Type: text/css
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-brands-400.eot
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-brands-400.eot?
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-brands-400.svg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-brands-400.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-brands-400.woff
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-brands-400.woff
+Content Type: font/woff
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-brands-400.woff2
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-regular-400.eot
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-regular-400.eot?
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-regular-400.svg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-regular-400.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-regular-400.woff
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-regular-400.woff
+Content Type: font/woff
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-regular-400.woff2
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-solid-900.eot
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-solid-900.eot?
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-solid-900.svg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-solid-900.ttf
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-solid-900.woff
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-solid-900.woff
+Content Type: font/woff
+
+Uri: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/fonts/la-solid-900.woff2
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\vue-static\landings\line-awesome\line-awesome\1.3.0\fonts\la-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/animate.min.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\animate.min.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/lightbox.min.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\lightbox.min.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/owl.theme.default.min.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\owl.theme.default.min.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/responsive.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\responsive.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/smooth-scrollbar.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\smooth-scrollbar.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/css/style.css
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\css\style.css
+Content Type: text/css
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/bg-shape.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\bg-shape.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-1.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-1.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-2.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-2.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-3.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-3.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-4.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-4.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-5.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-5.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-6.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-6.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-7.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-7.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/client-8.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\client-8.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/close.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\close.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/favicon.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/figma.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\figma.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/framer.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\framer.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/laravel.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\laravel.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/loading.gif
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\loading.gif
+Content Type: image/gif
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/logo.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\logo.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/me.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\me.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/next.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\next.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/portfolio1.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\portfolio1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/portfolio2.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\portfolio2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/portfolio3.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\portfolio3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/portfolio4.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\portfolio4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/portfolio5.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\portfolio5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/prev.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\prev.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/react.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\react.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/round-text.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\round-text.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/testimonial-1.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\testimonial-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/testimonial-2.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\testimonial-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/testimonial-3.jpg
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\testimonial-3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/video1.mp4
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\video1.mp4
+Content Type: video/mp4
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/video2.mp4
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\video2.mp4
+Content Type: video/mp4
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/video3.mp4
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\video3.mp4
+Content Type: video/mp4
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/video4.mp4
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\video4.mp4
+Content Type: video/mp4
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/video5.mp4
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\video5.mp4
+Content Type: video/mp4
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/webflow.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\webflow.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/images/wordpress.png
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\images\wordpress.png
+Content Type: image/png
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/ajax-form.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\ajax-form.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\bootstrap.bundle.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/color.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\color.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/gsap.min.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\gsap.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/jquery.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\jquery.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/lightbox.min.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\lightbox.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/main.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\main.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/owl.carousel.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\owl.carousel.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/ScrollToPlugin.min.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\ScrollToPlugin.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/assets/js/ScrollTrigger.min.js
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\assets\js\ScrollTrigger.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpriverthemes.com/HTML/drake/home1.html
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\home1.html
+Content Type: text/html
+
+Uri: https://wpriverthemes.com/HTML/drake/home2.html
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\home2.html
+Content Type: text/html
+
+Uri: https://wpriverthemes.com/HTML/drake/home3.html
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\home3.html
+Content Type: text/html
+
+Uri: https://wpriverthemes.com/HTML/drake/home4.html
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\home4.html
+Content Type: text/html
+
+Uri: https://wpriverthemes.com/HTML/drake/home5.html
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\home5.html
+Content Type: text/html
+
+Uri: https://wpriverthemes.com/HTML/drake/home6.html
+File Name: C:\Downloaded Web Sites\wpriverthemes.com\HTML\drake\home6.html
+Content Type: text/html
+

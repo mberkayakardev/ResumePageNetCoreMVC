@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\smooth-scrollbar.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\smooth-scrollbar.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\bg-shape.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\bg-shape.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-1.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-1.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-2.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-2.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-3.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-3.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-4.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-4.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-5.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-5.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-6.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-6.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-7.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-7.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-8.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\client-8.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\figma.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\figma.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\framer.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\framer.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\laravel.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\laravel.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\me.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\me.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio1.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio1.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio2.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio2.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio3.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio3.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio4.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio4.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio5.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\portfolio5.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\react.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\react.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\round-text.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\round-text.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\testimonial-3.jpg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video1.mp4",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video1.mp4"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video2.mp4",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video2.mp4"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video3.mp4",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video3.mp4"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video4.mp4",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video4.mp4"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video5.mp4",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\video5.mp4"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\webflow.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\webflow.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\wordpress.png",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\images\\wordpress.png"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\ScrollToPlugin.min.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\ScrollToPlugin.min.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\ScrollTrigger.min.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\ScrollTrigger.min.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\ajax-form.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\ajax-form.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\color.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\color.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\gsap.min.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\gsap.min.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\assets\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\home1.html",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\home1.html"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\home2.html",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\home2.html"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\home3.html",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\home3.html"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\home4.html",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\home4.html"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\home5.html",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\home5.html"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\HTML\\drake\\home6.html",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\HTML\\drake\\home6.html"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\css2",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\s\\inter\\v13\\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\css\\line-awesome.min.css",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\css\\line-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400-1.eot",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400-1.eot"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.eot",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.svg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.woff",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.woff2",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400-1.eot",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400-1.eot"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.eot",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.svg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.woff",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.woff2",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900-1.eot",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900-1.eot"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.eot",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.svg",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.ttf",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.woff",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.woff2",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\vue-static\\landings\\line-awesome\\line-awesome\\1.3.0\\fonts\\la-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\CvTema\\wpriverthemes.com\\webcopy-origin.txt",
+      "PackagePath": "staticwebassets\\CvTema\\wpriverthemes.com\\webcopy-origin.txt"
+    },
+    {
+      "Id": "D:\\Github\\CvProjesi\\Akar.Portfolio\\Akar.Portfolio.WebUI\\wwwroot\\ProjectDocument\\NotFoundProfilePhoto.png",
+      "PackagePath": "staticwebassets\\ProjectDocument\\NotFoundProfilePhoto.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Akar.Portfolio.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Akar.Portfolio.WebUI.props",
+      "PackagePath": "build\\Akar.Portfolio.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Akar.Portfolio.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\Akar.Portfolio.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Akar.Portfolio.WebUI.props",
+      "PackagePath": "buildTransitive\\Akar.Portfolio.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

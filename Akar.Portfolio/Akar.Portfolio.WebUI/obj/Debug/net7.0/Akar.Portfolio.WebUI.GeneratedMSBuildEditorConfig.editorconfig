@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Akar.Portfolio.WebUI
+build_property.RootNamespace = Akar.Portfolio.WebUI
+build_property.ProjectDir = D:\Github\CvProjesi\Akar.Portfolio\Akar.Portfolio.WebUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Github\CvProjesi\Akar.Portfolio\Akar.Portfolio.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Resume/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFJlc3VtZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/About/_AboutViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEFib3V0XF9BYm91dFZpZXdDb21wb25lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/Background/_BackgroundViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEJhY2tncm91bmRcX0JhY2tncm91bmRWaWV3Q29tcG9uZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/Contact/_ContactViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXENvbnRhY3RcX0NvbnRhY3RWaWV3Q29tcG9uZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/Education/_EducationViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEVkdWNhdGlvblxfRWR1Y2F0aW9uVmlld0NvbXBvbmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/Experiance/_ExperianceViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEV4cGVyaWFuY2VcX0V4cGVyaWFuY2VWaWV3Q29tcG9uZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/Introduce/_IntroduceViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEludHJvZHVjZVxfSW50cm9kdWNlVmlld0NvbXBvbmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/MySkills/_MySkillsViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXE15U2tpbGxzXF9NeVNraWxsc1ZpZXdDb21wb25lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/NavigationBar/_NavigationBarViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXE5hdmlnYXRpb25CYXJcX05hdmlnYXRpb25CYXJWaWV3Q29tcG9uZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/Portfolio/_PortfolioViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFBvcnRmb2xpb1xfUG9ydGZvbGlvVmlld0NvbXBvbmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/ProfileCard/_ProfileCardViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFByb2ZpbGVDYXJkXF9Qcm9maWxlQ2FyZFZpZXdDb21wb25lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Components/Services/_ServicesViewComponents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFNlcnZpY2VzXF9TZXJ2aWNlc1ZpZXdDb21wb25lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/Layout/_CvLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxMYXlvdXRcX0N2TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/Shared/PartialViews/CvPartial/_CvChangingTheme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXFNoYXJlZFxQYXJ0aWFsVmlld3NcQ3ZQYXJ0aWFsXF9DdkNoYW5naW5nVGhlbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/CvProjesi/Akar.Portfolio/Akar.Portfolio.WebUI/Areas/Resume/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzdW1lXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
