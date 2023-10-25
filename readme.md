@@ -12,4 +12,5 @@ Bu benim kişisel tanıtım sayfamın repositroysi dir. C#, .Net Core 7.0 ve Dap
     <li> Repository Desing Pattern </li>
     <li> Unit Of Work </li>
     <li> N - Tier Arch</li>
+    <li> Option Pattern </li>
 </ul>
