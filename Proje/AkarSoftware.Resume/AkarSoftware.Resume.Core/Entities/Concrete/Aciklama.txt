@@ -1,0 +1,4 @@
+﻿* Tüm Projelerinizde Ortak Kullanabileceğiniz Entityleriniz varsa burada tanımlayabilirsiniz 
+
+* (bu proje haricinde başka projeler tarafından kullanılabilecek entityleriniz varsa bundan bahsediyorum mesela rolleme, mesela user sınıfları ...)
+

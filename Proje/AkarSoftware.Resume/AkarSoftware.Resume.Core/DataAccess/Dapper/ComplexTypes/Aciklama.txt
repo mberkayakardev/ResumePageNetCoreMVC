@@ -1,0 +1,3 @@
+﻿Klasörlemeler için buraya Dapper eklendi. Tüm projelerde ortak kullanılmak isterse bir alt yapı oluşsun diye. 
+
+İstenildiği taktirde burada Dapper için complex type a hizmet edecek veri tiplerinizi oluşturabilirsiniz.
