@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 28 Dec 2023 16:55:39 at https://art-template.ru/vcard1/demo_new.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "tr, en, *" https://art-template.ru/vcard1/demo_new.html -O1 "C:\Users\Muhammed Berkay AKAR\Desktop\deneme" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:55:53	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/assets/images/social.jpg (from https://art-template.ru/vcard1/demo_new.html)
+16:56:17	Error: 	"Not Found" (404) at link https://art-template.ru/assets/images/social.jpg (from https://art-template.ru/vcard1/dark/about.html)
+16:56:18	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/dark/background-3.html (from https://art-template.ru/vcard1/dark/about.html)
+16:56:18	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/dark/background-2.html (from https://art-template.ru/vcard1/dark/about.html)
+16:56:18	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/dark/background-5.html (from https://art-template.ru/vcard1/dark/about.html)
+16:56:18	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/dark/background-4.html (from https://art-template.ru/vcard1/dark/about.html)
+16:56:18	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/dark/menu_alternative/about.html (from https://art-template.ru/vcard1/dark/about.html)
+16:56:18	Warning: 	File not parsed, looks like binary: https://art-template.ru/vcard1/assets/icons/icomoon.ttf?tbz8yr
+16:56:18	Warning: 	File not parsed, looks like binary: https://art-template.ru/vcard1/assets/icons/icomoon.woff?tbz8yr
+16:56:23	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/rtl/menu_alternative/about.html (from https://art-template.ru/vcard1/rtl/about.html)
+16:56:24	Error: 	"Not Found" (404) at link https://art-template.ru/vcard1/menu_alternative/menu_alternative/about.html (from https://art-template.ru/vcard1/menu_alternative/about.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 45 seconds : 140 links scanned, 130 files written (5728736 bytes overall) [3920836 bytes received at 87129 bytes/sec], 2413736 bytes transferred using HTTP compression in 58 files, ratio 23%, 23.3 requests per connection
+(9 errors, 2 warnings, 0 messages)
