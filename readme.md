@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 <h2 id="Proje-Hakkinda"> Proje Hakkında </h2>
 
- <img src ="https://github.com/mberkayakardev/E_Commerce_With_Core_MVC/blob/master/Resimler/CostumerKarsilama.png?raw=true" >
+ <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/img1.png?raw=true" >
 
  
  
@@ -61,3 +61,4 @@
 * ToastyNotification
 * Ajax
 * JQuery
+* Dapper - Dapper Contrib (Eski version Proje içerikleri kısmında Dapper içinde bir alternatifi farklı bir tema için mevcuttur.)
