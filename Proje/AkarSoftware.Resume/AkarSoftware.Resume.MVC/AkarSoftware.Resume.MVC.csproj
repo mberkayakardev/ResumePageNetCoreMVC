@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AkarSoftware.Resume.Business\AkarSoftware.Resume.Business.csproj" />
+  </ItemGroup>
+
 </Project>

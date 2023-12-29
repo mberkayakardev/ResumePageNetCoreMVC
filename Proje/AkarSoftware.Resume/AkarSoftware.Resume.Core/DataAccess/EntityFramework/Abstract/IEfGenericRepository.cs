@@ -1,5 +1,6 @@
 ﻿using AkarSoftware.Resume.Core.DataAccess.EntityFramework.ComplexTypes;
 using AkarSoftware.Resume.Core.Entities.Abstract;
+using AkarSoftware.Resume.Core.Utilities.Pagination.ComplexTypes;
 using System.Linq.Expressions;
 
 namespace AkarSoftware.Resume.Core.DataAccess.EntityFramework.Abstract

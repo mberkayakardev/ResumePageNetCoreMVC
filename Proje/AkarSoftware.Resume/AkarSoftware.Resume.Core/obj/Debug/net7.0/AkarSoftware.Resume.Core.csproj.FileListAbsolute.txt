@@ -1,0 +1,6 @@
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.csproj.AssemblyReference.cache
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.AssemblyInfoInputs.cache
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.AssemblyInfo.cs
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.csproj.CoreCompileInputs.cache
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.sourcelink.json

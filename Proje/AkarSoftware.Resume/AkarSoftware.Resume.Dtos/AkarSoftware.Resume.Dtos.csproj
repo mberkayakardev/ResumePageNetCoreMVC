@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AkarSoftware.Resume.Core\AkarSoftware.Resume.Core.csproj" />
+  </ItemGroup>
+
 </Project>
