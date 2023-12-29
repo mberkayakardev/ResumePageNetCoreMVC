@@ -1,0 +1,16 @@
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\bin\Debug\net7.0\AkarSoftware.Resume.Entities.deps.json
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\bin\Debug\net7.0\AkarSoftware.Resume.Entities.dll
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\bin\Debug\net7.0\AkarSoftware.Resume.Entities.pdb
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\bin\Debug\net7.0\AkarSoftware.Resume.Core.dll
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\bin\Debug\net7.0\AkarSoftware.Resume.Core.pdb
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.csproj.AssemblyReference.cache
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.AssemblyInfoInputs.cache
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.AssemblyInfo.cs
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.csproj.CoreCompileInputs.cache
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.sourcelink.json
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.csproj.CopyComplete
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.dll
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\refint\AkarSoftware.Resume.Entities.dll
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\AkarSoftware.Resume.Entities.pdb
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Entities\obj\Debug\net7.0\ref\AkarSoftware.Resume.Entities.dll

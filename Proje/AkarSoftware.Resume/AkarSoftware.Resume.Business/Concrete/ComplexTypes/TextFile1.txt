@@ -1,0 +1,3 @@
+﻿Request için pager lara bir costume sınıf yazıp kalıtım alabilirsiniz. bu sayede filtreleriniz hem pager bazlı hem de ayriyetten eklemek istediğiniz parametreler içerisinde pager olarak eklenebilir. 
+
+Aynı şekilde katmanlar arası Serach işlemleri için modellerinizi burada oluşturaiblirsiniz object model şeklinde 

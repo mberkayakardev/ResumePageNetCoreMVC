@@ -4,3 +4,12 @@ D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debu
 D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.AssemblyInfo.cs
 D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.csproj.CoreCompileInputs.cache
 D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.sourcelink.json
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\bin\Debug\net7.0\AkarSoftware.Resume.Core.deps.json
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\bin\Debug\net7.0\AkarSoftware.Resume.Core.runtimeconfig.json
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\bin\Debug\net7.0\AkarSoftware.Resume.Core.dll
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\bin\Debug\net7.0\AkarSoftware.Resume.Core.pdb
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.dll
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\refint\AkarSoftware.Resume.Core.dll
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.pdb
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\AkarSoftware.Resume.Core.genruntimeconfig.cache
+D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.Core\obj\Debug\net7.0\ref\AkarSoftware.Resume.Core.dll
