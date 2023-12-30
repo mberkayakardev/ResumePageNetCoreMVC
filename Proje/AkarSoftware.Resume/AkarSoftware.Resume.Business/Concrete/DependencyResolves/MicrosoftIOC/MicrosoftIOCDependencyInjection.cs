@@ -5,6 +5,7 @@ using AkarSoftware.Resume.DataAccess.Abstract;
 using AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.Contexts;
 using AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.UnitOfWork;
 using FluentValidation;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -55,7 +56,6 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
         /// </summary>
         private static void AddAnotherConfigurationServices(IServiceCollection services, IConfiguration configuration)
         {
-            //services.AddSession(); // Ekleyemedim
             services.AddMemoryCache();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
@@ -77,11 +77,15 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
                 }
 
             });
-            using (var serviceProvider = services.BuildServiceProvider())
+            if (enviroment.IsDevelopment())
             {
-                var dbContext = serviceProvider.GetRequiredService<MyDbContext>();
-                dbContext.Database.Migrate();
-            }
+
+				using (var serviceProvider = services.BuildServiceProvider())
+				{
+					var dbContext = serviceProvider.GetRequiredService<MyDbContext>();
+					dbContext.Database.Migrate();
+				}
+			}
         }
 
         private static void AddUnitOfWork(IServiceCollection services, IConfiguration configuration)
@@ -94,8 +98,13 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
         /// </summary>
         private static void AddDependencies(IServiceCollection services)
         {
-            services.AddSingleton<ICookieServices, CookieManager>();
-        }
+            services.AddScoped<ICookieServices, CookieManager>();
+            services.AddScoped<IAppUserService, AppUserManager>();
+            services.AddScoped<ISocialMediaService, SocialMediaManager>();
+
+				
+
+		}
         /// <summary>
         ///  Automapper ekler 
         /// </summary>
@@ -111,9 +120,7 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
         /// <param name="enviroment"></param>
         private static void AddAuthenticaton(IServiceCollection services, IHostEnvironment enviroment)
         {
-            /// Login ve Logout işlemleri için development ta configurasyonların uzun uğraştırmasını engellemek maksatlı bu şekilde bir geliştirme yapıldı 
-
-            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
         }
 

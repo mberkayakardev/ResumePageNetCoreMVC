@@ -57,8 +57,8 @@
 * Html  
 * CSS  
 * Bootstrap
-* SweetAlert
-* ToastyNotification
+* SweetAlert2
+* NToastNotify
 * Ajax
 * JQuery
 * Dapper - Dapper Contrib (Eski version Proje içerikleri kısmında Dapper içinde bir alternatifi farklı bir tema için mevcuttur.)

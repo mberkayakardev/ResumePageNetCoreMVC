@@ -10,10 +10,10 @@ using static AkarSoftware.Resume.Business.Concrete.ConstVerables.Messages;
 
 namespace AkarSoftware.Resume.Business.Concrete.Managers
 {
-    public class CookieManager : BaseManager, ICookieServices
+    public class CookieManager : ICookieServices
     {
         private readonly IHttpContextAccessor _HttpContext;
-        public CookieManager(IUnitOfWork uow, IMapper _Mapper, IHttpContextAccessor HttpContext) : base(_Mapper, uow)
+        public CookieManager(IUnitOfWork uow, IMapper _Mapper, IHttpContextAccessor HttpContext) 
         {
             _HttpContext = HttpContext;
         }

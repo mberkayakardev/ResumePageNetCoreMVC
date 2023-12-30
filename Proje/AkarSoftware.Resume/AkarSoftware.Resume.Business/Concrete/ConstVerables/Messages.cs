@@ -10,10 +10,12 @@
         public static class ProcessResult
         {
             public const string NotFound = "Herhangi bir kayıt bulunamadı";
+			public const string MappingError = "Mapleme işleminde bir hata meydana geldi.";
 
 
-        }
+
+		}
 
 
-    }
+	}
 }

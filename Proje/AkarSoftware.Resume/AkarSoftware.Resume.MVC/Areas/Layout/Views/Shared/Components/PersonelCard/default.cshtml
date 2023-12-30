@@ -1,0 +1,44 @@
+﻿@model AppUserListDto
+
+<aside class="col-12 col-md-12 col-xl-3">
+	<div class="sidebar box shadow pb-0 sticky-column">
+		<svg class="avatar avatar--180" viewBox="0 0 188 188">
+			<g class="avatar__box">
+				<image xlink:href="@Model.ProfilePhotos" height="100%" width="100%" />
+			</g>
+		</svg>
+		<div class="text-center">
+			<h3 class="title title--h3 sidebar__user-name"><span class="weight--500">@Model.Name</span> @Model.Surname</h3>
+			<div class="badge badge--dark">@Model.Position</div>
+		</div>
+
+		@await Component.InvokeAsync("SocialMediasPersonelCard")
+
+		<div class="sidebar__info box-inner">
+			<ul class="contacts-block">
+				<li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Doğum Tarihi">
+					<i class="font-icon icon-calendar"></i>@Model.BornDate.ToString("dd/MM/yyyy")
+				</li>
+				<li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Address">
+					<i class="font-icon icon-location"></i>@Model.Location
+				</li>
+				<li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="E-mail">
+					<a href="mailto:@Model.Email"><i class="font-icon icon-envelope"></i>@Model.Email</a>
+				</li>
+				<li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Telefon :">
+					<i class="font-icon icon-phone"></i><a href="tel:@Model.PhoneNumber1">@Model.PhoneNumber1 </a>
+				</li>
+				@if (!string.IsNullOrEmpty(Model.PhoneNumber2))
+				{
+					<li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Telefon :">
+						<i class="font-icon icon-phone"></i><a href="tel:@Model.PhoneNumber2">@Model.PhoneNumber2 </a>
+					</li>
+					
+				}
+			
+			</ul>
+
+			<a class="btn" href="@Model.CvPath" ><i class="font-icon icon-download"></i> CV İndir </a>
+		</div>
+	</div>
+</aside>

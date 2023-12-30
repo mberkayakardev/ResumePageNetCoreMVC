@@ -13,5 +13,8 @@ namespace AkarSoftware.Resume.Dtos.AppUserDtos
         public string PhoneNumber1 { get; set; }
         public string PhoneNumber2 { get; set; }
         public string CvPath { get; set; }
-    }
+        public string ProfilePhotos { get; set; }
+		public string Email { get; set; }
+
+	}
 }

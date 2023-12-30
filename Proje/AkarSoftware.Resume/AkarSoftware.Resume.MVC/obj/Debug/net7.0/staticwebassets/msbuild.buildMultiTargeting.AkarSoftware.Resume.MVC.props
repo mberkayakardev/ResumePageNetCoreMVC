@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AkarSoftware.Resume.MVC.props" />
+</Project>

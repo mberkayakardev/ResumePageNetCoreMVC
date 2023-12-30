@@ -8,5 +8,6 @@ namespace AkarSoftware.Resume.Entities.Concrete
         public string SocialMediaUserName { get; set; }
         public string SocialMediaUrl { get; set; }
         public string Description {  get; set; }
+        public string IconName { get; set; }
     }
 }

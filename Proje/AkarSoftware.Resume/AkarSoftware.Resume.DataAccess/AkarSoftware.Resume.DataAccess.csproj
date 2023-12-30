@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\EntityFramework\Configurations\" />
     <Folder Include="Concrete\EntityFramework\Repositories\" />
-    <Folder Include="Concrete\EntityFramework\Seeds\" />
   </ItemGroup>
 
   <ItemGroup>
