@@ -35,9 +35,6 @@
 
  <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/img1.png?raw=true" >
 
- 
- 
-
 * Kişisel olarak tanıtımımın yer aldığı, yaptığım projeleri tanıttığım bir CV Sitesidir.  
 
 <p align="right">(<a href="#readme-top">başa dön</a>)</p>
