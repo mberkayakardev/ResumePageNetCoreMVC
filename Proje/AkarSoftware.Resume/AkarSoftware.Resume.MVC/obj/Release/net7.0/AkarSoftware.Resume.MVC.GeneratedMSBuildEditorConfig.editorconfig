@@ -26,8 +26,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Account/singin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXEFjY291bnRcc2luZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Project/detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFByb2plY3RcZGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Project/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFByb2plY3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Resume/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFJlc3VtZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/Components/AboutMe/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEFib3V0TWVcZGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/Components/Brans/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEJyYW5zXGRlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/Components/PersonelCard/default.cshtml]
@@ -36,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/Components/SocialMediasPersonelCard/default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFNvY2lhbE1lZGlhc1BlcnNvbmVsQ2FyZFxkZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/Components/Teknolojiler/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFRla25vbG9qaWxlclxkZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/PartialViews/_navbar.cshtml]

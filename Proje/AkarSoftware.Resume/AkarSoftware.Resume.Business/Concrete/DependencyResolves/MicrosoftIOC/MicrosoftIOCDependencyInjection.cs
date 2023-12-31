@@ -16,7 +16,7 @@ using System.Reflection;
 
 namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
 {
-	public static class MicrosoftIOCDependencyInjection
+    public static class MicrosoftIOCDependencyInjection
     {
         public static void AddCostumeDependencies(this IServiceCollection Services, IConfiguration Configuration, IHostEnvironment enviroment)
         {
@@ -104,13 +104,17 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
 			services.AddScoped<IAboutMeServices, AboutMeManager>();
             services.AddScoped<IAbiliryService, AbilityManager>();
             services.AddScoped<ITechnologiesService, TechnologiesManager>();
+            services.AddScoped<IEducationService, EducationManager>();
+            services.AddScoped<IExperianceService, ExperianceManager>();
+            services.AddScoped<IProgressBarSkillsService, ProgressBarSkillsManager>();
+            services.AddScoped<IBadgeService, BadgeManager>();
 
 
-		}
-		/// <summary>
-		///  Automapper ekler 
-		/// </summary>
-		private static void AddMapper(IServiceCollection services)
+        }
+        /// <summary>
+        ///  Automapper ekler 
+        /// </summary>
+        private static void AddMapper(IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }

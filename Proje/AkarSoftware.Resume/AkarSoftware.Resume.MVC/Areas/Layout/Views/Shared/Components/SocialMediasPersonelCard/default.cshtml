@@ -2,15 +2,21 @@
 
 @if (Model != null)
 {
-		<div class="social text-center">
+    <div class="social text-center">
 
-	@foreach (var item in Model)
-	{
-		<!-- Social -->
-			<a class="social__link" href="@item.SocialMediaUrl"><i class="@item.IconName"></i></a>
-		
-	}
-	</div>
+        @foreach (var item in Model)
+        {
+            <!-- Social -->
+            <a class="social__link" href="@item.SocialMediaUrl"><i class="@item.IconName"></i></a>
 
+        }
+    </div>
+
+}
+else
+{
+    <div class="social text-center">
+        <p> Veri bulunamadı </p>
+    </div>
 }
 

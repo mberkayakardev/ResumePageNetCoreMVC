@@ -5,7 +5,8 @@ using NToastNotify;
 var builder = WebApplication.CreateBuilder(args);
 
 #region Services Register
-builder.Services.AddControllersWithViews()
+builder.Services.AddControllersWithViews().
+	AddRazorRuntimeCompilation()
 	.AddNToastNotifyToastr(new NToastNotify.ToastrOptions
 	{
 		PositionClass = ToastPositions.TopRight,

@@ -1,0 +1,16 @@
+﻿@model List<BadgetListDto>
+
+@if (Model != null && Model.Count != 0)
+{
+    @foreach (var item in Model)
+    {
+        <button type="button" class="btn btn-primary p-1 m-1"> @item.Name  <span class="sr-only"></span> </button>
+    }
+}
+else
+{
+    <p> Yetenek rozetleri bulunamadı ...</p>
+}
+<br />
+<br />
+<br />

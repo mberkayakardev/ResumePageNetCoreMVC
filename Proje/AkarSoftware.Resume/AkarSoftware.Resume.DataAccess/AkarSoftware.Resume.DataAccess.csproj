@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\EntityFramework\Contexts\" />
+    <Folder Include="Concrete\EntityFramework\Repositories\" />
+    <Folder Include="Concrete\ObjectModels\" />
   </ItemGroup>
 
   <ItemGroup>

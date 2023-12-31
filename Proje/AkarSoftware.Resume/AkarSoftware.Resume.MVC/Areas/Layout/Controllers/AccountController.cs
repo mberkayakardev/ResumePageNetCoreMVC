@@ -2,7 +2,7 @@
 
 namespace AkarSoftware.Resume.MVC.Areas.Layout.Controllers
 {
-	[Area("Landing")]
+	[Area("Layout")]
 	public class AccountController : Controller
 	{
 		[Route("/singin")]
@@ -10,13 +10,6 @@ namespace AkarSoftware.Resume.MVC.Areas.Layout.Controllers
 		{
 			return View();
 		}
-
-
-
-
-
-
-
 
 		[Route("/singout")]
 		public IActionResult singout()

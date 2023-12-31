@@ -6,6 +6,5 @@ namespace AkarSoftware.Resume.Dtos.ProgressBarSkillsDtos
     {
         public string SkillName { get; set; }
         public int ProgressBarValue { get; set; }
-        public int ProgressBarSkilssMasterId { get; set; }
     }
 }

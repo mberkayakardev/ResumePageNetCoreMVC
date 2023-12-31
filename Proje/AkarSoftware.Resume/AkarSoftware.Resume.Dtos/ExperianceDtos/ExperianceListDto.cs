@@ -9,9 +9,9 @@ namespace AkarSoftware.Resume.Dtos.ExperianceDtos
         public string Name { get; set; }
         public string SubName { get; set; }
         public string ImagePath { get; set; }
-        public DateTime? StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
-        public string? StartDateFormat { get; set; } // DD, MM , YYYY vb 
+		public DateTime StartDate { get; set; }
+		public DateTime? EndDate { get; set; }
+		public string? StartDateFormat { get; set; } // DD, MM , YYYY vb 
         public string? EndDateFormat { get; set; } // DD, MM , YYYY vb 
         public string EducationDescription { get; set; }
         public bool IsActive { get; set; }

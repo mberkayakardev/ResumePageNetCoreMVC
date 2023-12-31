@@ -1,0 +1,34 @@
+﻿@model List<EducationListDto>
+
+@if (Model != null)
+{
+    <div class="pb-0">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="title title--h3"><img class="title-icon" src="~/Theme/Cv/vcard1/assets/icons/dark/icon-education.svg" alt="" /> Eğitimler </h2>
+                <div class="timeline">
+                    @foreach (var item in Model)
+                    {
+                        <article class="timeline__item mb-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="@item.ImagePath" width="100px" height="100px" />
+                                </div>
+                                <div class="col-10">
+                                    <h5 class="title title--h5 timeline__title">@item.Name</h5>
+                                    <h6 class="title title--h6 timeline__title">@Html.Raw(item.SubName)</h6>
+                                    <span class="timeline__period"> @(StartAndEndDateHelper.BaslangicBitisDonum(item.StartDate, item.EndDate, item.StartDateFormat, item.EndDateFormat)) </span>
+                                    <p class="timeline__description">@Html.Raw(item.EducationDescription)</p>
+                                </div>
+                            </div>
+                        </article>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <p> Kayıtlı Veri Bulunamadı </p>
+}

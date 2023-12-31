@@ -1,6 +1,13 @@
 ﻿@model AboutMeListDto
 
-<div class="pb-0 pb-sm-2">
-    <h1 class="title title--h1 first-title title__separate">Hakkımda</h1>
-    @Html.Raw(@Model.Description)
-</div>
+@if (Model != null)
+{
+    <div class="pb-0 pb-sm-2">
+        <h1 class="title title--h1 first-title title__separate">Hakkımda</h1>
+        @Html.Raw(@Model.Description)
+    </div>
+}
+else
+{
+    <p> Kayıtlı veri bulunamadı </p>
+}

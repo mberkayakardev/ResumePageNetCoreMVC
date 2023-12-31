@@ -1,0 +1,36 @@
+﻿@model List<ProgressBarSkillsListDto>
+
+@if (Model != null && Model.Count != 0)
+{
+
+}
+else
+{
+    <p> Yetenek bilgisi bulunamadı </p>
+}
+
+<div class="box-inner box-inner--rounded">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="title title--h3">Yetenekler </h2>
+            <div class="box box__second">
+
+                @foreach (var item in Model)
+                {
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="@item.ProgressBarValue" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-text"><span>@item.SkillName</span><span>@(item.ProgressBarValue+"%")</span></div>
+                        </div>
+                        <div class="progress-text"><span>Web Design</span></div>
+                    </div>
+                }
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<br />
+<br />
+
+
