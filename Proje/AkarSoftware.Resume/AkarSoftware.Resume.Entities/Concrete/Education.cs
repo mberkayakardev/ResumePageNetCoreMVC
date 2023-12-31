@@ -2,7 +2,7 @@
 
 namespace AkarSoftware.Resume.Entities.Concrete
 {
-    public class Education : BaseEntity
+	public class Education : BaseEntity
     {
         public string Name { get; set; }
         public string SubName { get; set; }

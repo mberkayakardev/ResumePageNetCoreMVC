@@ -9,6 +9,5 @@ namespace AkarSoftware.Resume.Entities.Concrete
         public int Width { get; set; }
         public int Height { get; set; } 
 
-
     }
 }

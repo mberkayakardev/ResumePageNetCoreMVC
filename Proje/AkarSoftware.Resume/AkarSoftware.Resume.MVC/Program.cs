@@ -1,7 +1,7 @@
 ﻿using AkarSoftware.Resume.Business.Concrete.CostumeMiddlewaresExtentions;
 using AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC;
-using Microsoft.Extensions.FileProviders;
 using NToastNotify;
+
 var builder = WebApplication.CreateBuilder(args);
 
 #region Services Register

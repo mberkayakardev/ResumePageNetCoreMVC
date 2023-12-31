@@ -2,9 +2,10 @@
 
 namespace AkarSoftware.Resume.MVC.Areas.Layout.Controllers
 {
-	[Area("Landing")]
+	[Area("Layout")]
 	public class ResumeController: Controller
 	{
+		[Route("/resume")]
 		public IActionResult Index()
 		{
 			return View();

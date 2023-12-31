@@ -16,7 +16,7 @@ using System.Reflection;
 
 namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
 {
-    public static class MicrosoftIOCDependencyInjection
+	public static class MicrosoftIOCDependencyInjection
     {
         public static void AddCostumeDependencies(this IServiceCollection Services, IConfiguration Configuration, IHostEnvironment enviroment)
         {
@@ -71,21 +71,21 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
                 var ConnectionString = configuration.GetSection("ApplicationSettings:ConnectionStrings").Value.ToString();
                 x.UseSqlServer(ConnectionString);
 
-                if (enviroment.IsDevelopment()) // Development modu için Entity Framework Logları incelenmek İstenebilir. 
-                {
-                    x.EnableSensitiveDataLogging(true); // veritabanı loglaması için aktif hale getirildi. 
-                }
+                //if (enviroment.IsDevelopment()) // Development modu için Entity Framework Logları incelenmek İstenebilir. 
+                //{
+                //    x.EnableSensitiveDataLogging(true); // veritabanı loglaması için aktif hale getirildi. 
+                //}
 
             });
-            if (enviroment.IsDevelopment())
-            {
+   //         if (enviroment.IsDevelopment())
+   //         {
 
-				using (var serviceProvider = services.BuildServiceProvider())
-				{
-					var dbContext = serviceProvider.GetRequiredService<MyDbContext>();
-					dbContext.Database.Migrate();
-				}
-			}
+			//	using (var serviceProvider = services.BuildServiceProvider())
+			//	{
+			//		var dbContext = serviceProvider.GetRequiredService<MyDbContext>();
+			//		dbContext.Database.Migrate();
+			//	}
+			//}
         }
 
         private static void AddUnitOfWork(IServiceCollection services, IConfiguration configuration)
@@ -101,14 +101,16 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
             services.AddScoped<ICookieServices, CookieManager>();
             services.AddScoped<IAppUserService, AppUserManager>();
             services.AddScoped<ISocialMediaService, SocialMediaManager>();
+			services.AddScoped<IAboutMeServices, AboutMeManager>();
+            services.AddScoped<IAbiliryService, AbilityManager>();
+            services.AddScoped<ITechnologiesService, TechnologiesManager>();
 
-				
 
 		}
-        /// <summary>
-        ///  Automapper ekler 
-        /// </summary>
-        private static void AddMapper(IServiceCollection services)
+		/// <summary>
+		///  Automapper ekler 
+		/// </summary>
+		private static void AddMapper(IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }

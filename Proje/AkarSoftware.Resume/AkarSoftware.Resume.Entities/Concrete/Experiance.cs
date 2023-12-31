@@ -1,9 +1,8 @@
-﻿using AkarSoftware.Resume.Core.Dtos.Abstract;
-using AkarSoftware.Resume.Core.Entities.Abstract;
+﻿using AkarSoftware.Resume.Core.Entities.Abstract;
 
 namespace AkarSoftware.Resume.Entities.Concrete
 {
-    public class Experiance : BaseEntity
+	public class Experiance : BaseEntity
     {
         public string Name { get; set; }
         public string SubName { get; set; }

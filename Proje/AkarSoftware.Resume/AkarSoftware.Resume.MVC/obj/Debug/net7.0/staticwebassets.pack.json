@@ -1,8 +1,52 @@
 {
   "Files": [
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\BerkayAkarCV.pdf",
+      "PackagePath": "staticwebassets\\StaticFiles\\BerkayAkarCV.pdf"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\ProfilFoto.jpg",
       "PackagePath": "staticwebassets\\StaticFiles\\ProfilFoto.jpg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\api.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\api.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\c#.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\c#.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\computer.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\computer.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\csharp.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\csharp.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\django.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\django.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\dotnetcore.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\dotnetcore.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\dotnetframework.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\dotnetframework.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\frontend.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\frontend.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\python.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\python.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\website.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\website.png"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\Theme\\Admin\\cdn.tiny.cloud\\1\\invalid-origin\\tinymce\\5.10.9-138\\tinymce.min.js",

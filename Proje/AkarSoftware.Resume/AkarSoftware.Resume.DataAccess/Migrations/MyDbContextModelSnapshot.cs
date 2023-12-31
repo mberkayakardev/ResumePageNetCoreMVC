@@ -43,12 +43,67 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                     b.Property<DateTime>("ModifiedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
                     b.Property<int>("OrderNumber")
                         .HasColumnType("int");
+
+                    b.Property<string>("UrlPath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Abilities");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4307),
+                            Description = ".Net Core MVC, Asp.Net MVC, Flask, Django ile web uygulamaları geliştirebiliyorum",
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4320),
+                            Name = "Web Uygulamaları",
+                            OrderNumber = 1,
+                            UrlPath = "/StaticFiles/website.png"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4323),
+                            Description = "Winform, PyQt5, Tkinter, JFrame ile masaüstü uygulamalar geliştirebiliyorum.",
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4324),
+                            Name = "Masaüstü Uygulamalar",
+                            OrderNumber = 2,
+                            UrlPath = "/StaticFiles/computer.png"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4325),
+                            Description = "Restfull - Web Api Geliştirmesi Yapabiliyorum",
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4326),
+                            Name = "Web Servisler",
+                            OrderNumber = 3,
+                            UrlPath = "/StaticFiles/api.png"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4327),
+                            Description = "HTML, CSS, BOOSTRAP, JS, JQUERY, REACT ile ön yüz uygulamaları geliştirebiliyorum",
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4328),
+                            Name = "Front - End Geliştirme ",
+                            OrderNumber = 4,
+                            UrlPath = "/StaticFiles/frontend.png"
+                        });
                 });
 
             modelBuilder.Entity("AkarSoftware.Resume.Entities.Concrete.AboutMe", b =>
@@ -75,6 +130,16 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("AboutMes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4534),
+                            Description = "<p><strong><strong><strong></strong></strong></strong></p><p><span style=\"letter-spacing: 0\">2021 yılında Düzce Üniversitesi Bilgisayar Mühendisliği bölümünden 3.03 ortalama mezun oldum. Genel olarak üniversite hayatım boyunca teorik ve uygulamalı olarak edinmiş olduğum bilgileri kurumsal firmalarda gerçekleştirmiş olduğum stajlar ve iş deneyimleri ile destekledim. Orta seviyede İngilizce bilgisine sahibim. Öğrenmeye ve çalışmaya açık bir insan olarak eğitim geçmişime ve kişisel&nbsp;</span><span style=\"letter-spacing: 0\">özelliklerime değer katabileceğim bir pozisyonda deneyim kazanmak ve süreçleri&nbsp;</span><span style=\"letter-spacing: 0\">gözlemlemek istiyorum.</span></p><ul><li><em>Çok Katmanlı Mimari</em> ile proje geliştirebiliyorum. (<strong>N-TIER ARCHITECTURE</strong>).</li><li><em>Django, Flask, ASP.NET Core W</em>eb frameworklerini kullanarak projeler geliştirebiliyorum.</li><li><em>MSSQL, MySQL</em>, <em>Oracle</em> ile veri tabanı yönetimi ve modellemesi yapabiliyorum.</li><li><em>Java, C#, Python</em> dillerinde projeler geliştirebiliyorum.&nbsp;</li><li><em>Devexpress, Windows Form, Pyqt5, Tkinter, Jframe</em> kullanarak masaüstü uygulamalar geliştirebiliyorum.</li><li><em>Windows Server 2012 R2</em> kullanım Orta Seviye <em>MacOS, Windows, Linux (Ubuntu)</em> Bilgisi.</li><li><em>Knime , Weka</em> gibi veri madenciliği araçlarını kullanabiliyorum ve <em>Sklearn, TensorFlow</em> kütüphanelerini kullanarak makine öğrenmesi, veri bilimi projeleri geliştirebiliyorum.</li><li><em>ODI</em> ve<em> SAP BODS</em> araçları kullanarak <em>ETL</em> süreçleri gerçekleştirebiliyorum.</li></ul><br><br><ul><li><strong>Github : https://github.com/mberkayakardev</strong></li><li><strong>Linkedin: https://www.linkedin.com/in/berkayakar/</strong></li></ul>",
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4535)
+                        });
                 });
 
             modelBuilder.Entity("AkarSoftware.Resume.Entities.Concrete.AppUser", b =>
@@ -155,12 +220,12 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         {
                             Id = 1,
                             BornDate = new DateTime(1999, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CreatedDate = new DateTime(2023, 12, 30, 5, 2, 50, 921, DateTimeKind.Local).AddTicks(6654),
-                            CvPath = "/StaticFiles/ProfilFoto.jpg",
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4616),
+                            CvPath = "/StaticFiles/BerkayAkarCV.pdf",
                             Email = "mberkayakar@outlook.com",
                             IsActive = true,
                             Location = "Bayrampaşa / İstanbul",
-                            ModifiedDate = new DateTime(2023, 12, 30, 5, 2, 50, 921, DateTimeKind.Local).AddTicks(6667),
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(4617),
                             Name = "Berkay",
                             Password = "A665A45920422F9D417E4867EFDC4FB8A04A1F3FFF1FA07E998E86F7F7A27AE3",
                             PhoneNumber1 = "+90 534 564 34 10",
@@ -436,13 +501,25 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 30, 5, 2, 50, 921, DateTimeKind.Local).AddTicks(7228),
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5378),
                             Description = "Linkedin Profilim",
                             IconName = "font-icon icon-linkedin2",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 30, 5, 2, 50, 921, DateTimeKind.Local).AddTicks(7229),
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5379),
                             SocialMediaName = "Linkedin",
                             SocialMediaUrl = "https://www.linkedin.com/in/berkayakar/",
+                            SocialMediaUserName = "in/berkayakar"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5381),
+                            Description = "Github Profilim",
+                            IconName = "font-icon icon-github",
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5381),
+                            SocialMediaName = "Linkedin",
+                            SocialMediaUrl = "https://github.com/mberkayakardev",
                             SocialMediaUserName = "in/berkayakar"
                         });
                 });
@@ -469,7 +546,8 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("UrlPath")
                         .IsRequired()
@@ -481,6 +559,63 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Technologies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5464),
+                            Height = 50,
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5465),
+                            Name = ".Net Core",
+                            UrlPath = "/StaticFiles/dotnetcore.svg",
+                            Width = 50
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5467),
+                            Height = 50,
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5467),
+                            Name = ".Net Framework",
+                            UrlPath = "/StaticFiles/dotnetframework.svg",
+                            Width = 50
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5469),
+                            Height = 50,
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5469),
+                            Name = "C#",
+                            UrlPath = "/StaticFiles/csharp.svg",
+                            Width = 50
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5470),
+                            Height = 50,
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5471),
+                            Name = "Python",
+                            UrlPath = "/StaticFiles/python.svg",
+                            Width = 50
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5472),
+                            Height = 50,
+                            IsActive = true,
+                            ModifiedDate = new DateTime(2023, 12, 31, 3, 37, 53, 613, DateTimeKind.Local).AddTicks(5472),
+                            Name = "Django",
+                            UrlPath = "/StaticFiles/django.svg",
+                            Width = 50
+                        });
                 });
 
             modelBuilder.Entity("AkarSoftware.Resume.Entities.Concrete.ProgressBarSkills", b =>

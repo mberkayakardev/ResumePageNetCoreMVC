@@ -2,7 +2,7 @@
 
 namespace AkarSoftware.Resume.Entities.Concrete
 {
-    public class Project : BaseEntity
+	public class Project : BaseEntity
     {
         public string Name { get; set; }
         public string Description { get; set; }

@@ -1,0 +1,20 @@
+﻿@model List<TechnologiesListDto>
+
+<!-- Clients -->
+<div class="box-inner box-inner--rounded">
+    <h2 class="title title--h3">Clients</h2>
+
+    <div class="swiper-container js-carousel-clients">
+        <div class="swiper-wrapper">
+            <!-- Item client -->
+            @foreach (var item in Model)
+            {
+                <div class="swiper-slide text-center" style="width : 100px">
+                    <a><img src="@item.UrlPath" width="60px" height="50px" alt="Logo" /></a>
+                </div>
+            }
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>

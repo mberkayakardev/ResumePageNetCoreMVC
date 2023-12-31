@@ -25,7 +25,7 @@ namespace AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.Seeds
 					Location = "Bayrampaşa / İstanbul",
 					PhoneNumber1 = "+90 534 564 34 10",
 					PhoneNumber2 = "+90 534 541 34 10",
-					CvPath= "/StaticFiles/ProfilFoto.jpg",
+					CvPath= "/StaticFiles/BerkayAkarCV.pdf",
 					ProfilePhotos = "/StaticFiles/ProfilFoto.jpg",
 					Email ="mberkayakar@outlook.com"
 

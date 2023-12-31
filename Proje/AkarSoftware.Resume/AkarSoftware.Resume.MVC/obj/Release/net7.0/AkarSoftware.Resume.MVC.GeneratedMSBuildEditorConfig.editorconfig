@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AkarSoftware.Resume.MVC
+build_property.RootNamespace = AkarSoftware.Resume.MVC
+build_property.ProjectDir = D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/Components/PersonelCard/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFBlcnNvbmVsQ2FyZFxkZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/Components/SocialMediasPersonelCard/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFNvY2lhbE1lZGlhc1BlcnNvbmVsQ2FyZFxkZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/PartialViews/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxQYXJ0aWFsVmlld3NcX25hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/Shared/PartialViews/_preloader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXFNoYXJlZFxQYXJ0aWFsVmlld3NcX3ByZWxvYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Layout/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGF5b3V0XFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Views/Shared/_LandingLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYW5kaW5nTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
