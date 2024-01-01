@@ -10,10 +10,10 @@ namespace AkarSoftware.Resume.MVC.Controllers
             return View();
         }
 
-        [Route("/errors")]
-        public IActionResult Errors(int code)
+		[Route("/Error/{statusCode}")]
+		public IActionResult Errors(int statusCode)
         {
-            return View();
+            return View("404");
         }
     }
 }

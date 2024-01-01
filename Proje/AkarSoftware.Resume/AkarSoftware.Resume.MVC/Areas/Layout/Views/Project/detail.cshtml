@@ -1,10 +1,5 @@
 ﻿@model ProjectListDto
 
-@if (true)
-{
-	
-}
-
 <div class="pb-3">
 	<header class="header-post">
 		<div class="header-post__date">@Model.ProjectCreateDate.ToString("MM/yyyy")</div>
@@ -15,5 +10,5 @@
 		<img class="gallery-post__item cover lazyload" src="@Model.ProjectImageURL" data-zoom alt="" />
 	</div> 
 </div>
-
 @Html.Raw(Model.Description)
+<br />

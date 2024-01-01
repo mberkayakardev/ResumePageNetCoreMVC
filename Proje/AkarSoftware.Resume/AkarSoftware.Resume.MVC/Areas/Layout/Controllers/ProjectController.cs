@@ -16,8 +16,8 @@ namespace AkarSoftware.Resume.MVC.Areas.Layout.Controllers
 
         [Route("/projects")]
 		public async Task<IActionResult> Index()
-		{
-			var result = await projectService.GetActiveProjects();
+		{ 
+            var result = await projectService.GetActiveProjects();
 			return this.CostumeView<List<ProjectListDto>>(result, "index");
 		}
         [Route("/projects/{id}")]

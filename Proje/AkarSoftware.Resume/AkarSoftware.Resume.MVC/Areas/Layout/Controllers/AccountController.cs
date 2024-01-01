@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AkarSoftware.Resume.MVC.Areas.Layout.Controllers
 {
-    [Area("Layout")]
+	[Area("Layout")]
 	public class AccountController : Controller
 	{
 		private readonly IAppUserService _appUserService;

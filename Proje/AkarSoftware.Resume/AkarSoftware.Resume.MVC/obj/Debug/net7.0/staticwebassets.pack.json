@@ -1,6 +1,38 @@
 {
   "Files": [
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\grey\\images\\404.png",
+      "PackagePath": "staticwebassets\\404\\grey\\images\\404.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\grey\\images\\body.jpg",
+      "PackagePath": "staticwebassets\\404\\grey\\images\\body.jpg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\grey\\index.html",
+      "PackagePath": "staticwebassets\\404\\grey\\index.html"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\grey\\style.css",
+      "PackagePath": "staticwebassets\\404\\grey\\style.css"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\images\\404_dark.png",
+      "PackagePath": "staticwebassets\\404\\images\\404_dark.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\images\\body.png",
+      "PackagePath": "staticwebassets\\404\\images\\body.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\index.html",
+      "PackagePath": "staticwebassets\\404\\index.html"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\404\\style.css",
+      "PackagePath": "staticwebassets\\404\\style.css"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\6a6663ce-f080-4951-aaed-44f3aacedc1b.png",
       "PackagePath": "staticwebassets\\StaticFiles\\6a6663ce-f080-4951-aaed-44f3aacedc1b.png"
     },

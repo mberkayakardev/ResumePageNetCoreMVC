@@ -29,7 +29,6 @@ if (app.Environment.IsDevelopment())
 else
 {
 	app.UseExceptionHandler("/exception");
-	app.UseStatusCodePagesWithReExecute("/errors", "code?={0}"); // Costume Exception Handler
 	app.UseHsts(); // Http yönlendirmeyi zorunlu kılmak için eklenmiştir. 
 }
 
@@ -59,6 +58,9 @@ app.UseAuthorization();
 app.AddCostumeMiddlewares();
 
 // Endpoint (conversational)
+app.UseStatusCodePagesWithReExecute("/Error/{0}"); // Costume Exception Handler
+
+
 app.UseEndpoints(e =>
 {
 	e.MapControllerRoute(name: "defaults", pattern: "{Area=Layout}/{Controller=Home}/{Action=Index}/{id?}");
