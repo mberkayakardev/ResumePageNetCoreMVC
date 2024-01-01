@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Concrete\DependencyResolves\AutoFac\" />
-    <Folder Include="Concrete\ValidationRules\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -108,9 +108,14 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
             services.AddScoped<IExperianceService, ExperianceManager>();
             services.AddScoped<IProgressBarSkillsService, ProgressBarSkillsManager>();
             services.AddScoped<IBadgeService, BadgeManager>();
+			services.AddScoped<IProjectService, ProjectManager>();
 
 
-        }
+			
+
+
+
+		}
         /// <summary>
         ///  Automapper ekler 
         /// </summary>
@@ -126,7 +131,15 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
         /// <param name="enviroment"></param>
         private static void AddAuthenticaton(IServiceCollection services, IHostEnvironment enviroment)
         {
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x=>
+            {
+                x.ExpireTimeSpan = TimeSpan.FromDays(20);
+                x.SlidingExpiration = true;
+                x.AccessDeniedPath = "/forbidden";
+                x.LoginPath = "/singin";
+                x.LogoutPath= "/singout";
+
+            });
 
         }
 

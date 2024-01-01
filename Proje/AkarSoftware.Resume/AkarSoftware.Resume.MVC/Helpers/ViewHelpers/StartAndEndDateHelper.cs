@@ -11,7 +11,7 @@
             
             if (date2 != null)
             {
-                zaman2 = date1.ToString(date1format);
+                zaman2 = date2.Value.ToString(date2format);
             }
             else
             {

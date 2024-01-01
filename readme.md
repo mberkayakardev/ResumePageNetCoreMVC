@@ -51,7 +51,7 @@
 * Fluent Api
 * Fluent Validaton
 * Entity Framework Core (Code first)
-* SummerNote editör
+* Tinymce editör
 * Javascript
 * Html  
 * CSS  
@@ -59,5 +59,5 @@
 * SweetAlert2
 * NToastNotify
 * Ajax
-* JQuery
-* Dapper - Dapper Contrib (Eski version Proje içerikleri kısmında Dapper içinde bir alternatifi farklı bir tema için mevcuttur.)
+* JQuery 
+* Dapper - Dapper Contrib (Eski version klasöründe Dapper ve Dapper contrib içinde bir alternatifi proje mevcut mimarise olarak bu şekil kurgulanır.)

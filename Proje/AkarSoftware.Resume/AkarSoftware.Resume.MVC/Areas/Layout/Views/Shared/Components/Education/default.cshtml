@@ -2,19 +2,24 @@
 
 @if (Model != null)
 {
+    <!-- Experience -->
     <div class="pb-0">
         <div class="row">
             <div class="col-12">
                 <h2 class="title title--h3"><img class="title-icon" src="~/Theme/Cv/vcard1/assets/icons/dark/icon-education.svg" alt="" /> Eğitimler </h2>
                 <div class="timeline">
+                    <!-- Item -->
                     @foreach (var item in Model)
                     {
                         <article class="timeline__item mb-5">
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="@item.ImagePath" width="100px" height="100px" />
+                                <div class="col-lg-2 col-md-12 text-center">
+                                    <img src="@item.ImagePath" width="125px" height="125px" />
+                                    <br />
+                                    <br />
+
                                 </div>
-                                <div class="col-10">
+                                <div class="col-lg-10 col-md-12">
                                     <h5 class="title title--h5 timeline__title">@item.Name</h5>
                                     <h6 class="title title--h6 timeline__title">@Html.Raw(item.SubName)</h6>
                                     <span class="timeline__period"> @(StartAndEndDateHelper.BaslangicBitisDonum(item.StartDate, item.EndDate, item.StartDateFormat, item.EndDateFormat)) </span>
@@ -23,8 +28,10 @@
                             </div>
                         </article>
                     }
+
                 </div>
             </div>
+
         </div>
     </div>
 }

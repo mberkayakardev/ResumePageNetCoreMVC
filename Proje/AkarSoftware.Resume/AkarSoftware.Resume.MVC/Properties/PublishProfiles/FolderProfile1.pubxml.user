@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\Muhammed Berkay AKAR\Desktop\cvsitepublish</_PublishTargetUrl>
-    <History>True|2023-12-31T00:57:34.6353440Z;</History>
+    <History>False|2023-12-31T16:49:23.9657208Z;True|2023-12-31T03:57:34.6353440+03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
