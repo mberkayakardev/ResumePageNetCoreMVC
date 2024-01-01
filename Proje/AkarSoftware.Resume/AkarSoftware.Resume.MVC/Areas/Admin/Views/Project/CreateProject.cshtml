@@ -1,4 +1,5 @@
-﻿@section style {
+﻿@model ProjectCreateDto
+@section style {
 
     <script src="https://cdn.tiny.cloud/1/vzf7ve9wqqox74jnlwl0kgqt75adziem7vqxli0jnw32zp3l/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
@@ -13,15 +14,26 @@
     <hr />
     <br />
 
-    <form asp-action="CreateProject" asp-controller="Project" asp-area="Admin" method="post">
+    <form asp-action="CreateProject" asp-controller="Project" asp-area="Admin" enctype="multipart/form-data" method="post">
         <div class="form-group">
             <label for="inputAddress">Proje Adı </label>
-            <input type="text" name="Name " class="form-control" id="inputAddress" placeholder="Proje Adı Giriniz ">
+            <input asp-for="@Model.Name" type="text" class="form-control" placeholder="Proje Adı Giriniz ">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Projeye açıklaması </label>
+            <input asp-for="@Model.ShortDescription " class="form-control" id="inputAddress" placeholder="Description ">
         </div>
         <div class="form-group">
             <label for="inputAddress">Proje Açıklaması </label>
-            <textarea name="Description" class="form-control" id="mytextarea" placeholder="Projeye bu aşamada açıklama girilecektir. "></textarea>
-
+            <textarea rows="30" asp-for="@Model.Description" class="form-control" id="mytextarea" placeholder="Projeye bu aşamada açıklama girilecektir. "></textarea>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Kapak Resmi </label>
+            <input asp-for="@Model.ProjectImage" type="file" class="form-control" placeholder=" Resim seçimi yapınız "></input>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Proje Oluşturma Tarihi </label>
+            <input asp-for="@Model.ProjectCreateDate" class="form-control" placeholder=" Tarih Seçimi Yapınız "></input>
         </div>
 
         <button type="submit" class="btn btn-primary">Proje Kaydı </button>

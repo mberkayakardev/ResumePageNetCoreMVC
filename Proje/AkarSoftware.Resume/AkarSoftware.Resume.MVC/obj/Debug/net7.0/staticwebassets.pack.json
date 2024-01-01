@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\6a6663ce-f080-4951-aaed-44f3aacedc1b.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\6a6663ce-f080-4951-aaed-44f3aacedc1b.png"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\BerkayAkarCV.pdf",
       "PackagePath": "staticwebassets\\StaticFiles\\BerkayAkarCV.pdf"
     },
@@ -23,6 +27,10 @@
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\c#.svg",
       "PackagePath": "staticwebassets\\StaticFiles\\c#.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\c210b0c1-893e-47bd-b184-c2b195710b03.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\c210b0c1-893e-47bd-b184-c2b195710b03.png"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\computer.png",
@@ -53,8 +61,24 @@
       "PackagePath": "staticwebassets\\StaticFiles\\duzceuni.png"
     },
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\e4a2385c-43f7-439d-9252-e75bfd5245e0.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\e4a2385c-43f7-439d-9252-e75bfd5245e0.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\f55f5d38-faab-4e5b-9c21-f6f417a12219.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\f55f5d38-faab-4e5b-9c21-f6f417a12219.png"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\frontend.png",
       "PackagePath": "staticwebassets\\StaticFiles\\frontend.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\guvenlisuruskapak - Copy.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\guvenlisuruskapak - Copy.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\guvenlisuruskapak.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\guvenlisuruskapak.png"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\hl.png",
@@ -67,6 +91,10 @@
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\python.svg",
       "PackagePath": "staticwebassets\\StaticFiles\\python.svg"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\scikitlearn kapak.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\scikitlearn kapak.png"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\teampro.jpg",

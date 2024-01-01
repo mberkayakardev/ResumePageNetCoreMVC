@@ -63,10 +63,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(220),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6350),
                             Description = ".Net Core MVC, Asp.Net MVC, Flask, Django ile web uygulamaları geliştirebiliyorum",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(232),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6366),
                             Name = "Web Uygulamaları",
                             OrderNumber = 1,
                             UrlPath = "/StaticFiles/website.png"
@@ -74,10 +74,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(234),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6368),
                             Description = "Winform, PyQt5, Tkinter, JFrame ile masaüstü uygulamalar geliştirebiliyorum.",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(235),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6369),
                             Name = "Masaüstü Uygulamalar",
                             OrderNumber = 2,
                             UrlPath = "/StaticFiles/computer.png"
@@ -85,10 +85,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(236),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6370),
                             Description = "Restfull - Web Api Geliştirmesi Yapabiliyorum",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(237),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6371),
                             Name = "Web Servisler",
                             OrderNumber = 3,
                             UrlPath = "/StaticFiles/api.png"
@@ -96,10 +96,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(238),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6372),
                             Description = "HTML, CSS, BOOSTRAP, JS, JQUERY, REACT ile ön yüz uygulamaları geliştirebiliyorum",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(238),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6372),
                             Name = "Front - End Geliştirme ",
                             OrderNumber = 4,
                             UrlPath = "/StaticFiles/frontend.png"
@@ -135,10 +135,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(402),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6521),
                             Description = "<p><strong><strong><strong></strong></strong></strong></p><p><span style=\"letter-spacing: 0\">2021 yılında Düzce Üniversitesi Bilgisayar Mühendisliği bölümünden 3.03 ortalama mezun oldum. Genel olarak üniversite hayatım boyunca teorik ve uygulamalı olarak edinmiş olduğum bilgileri kurumsal firmalarda gerçekleştirmiş olduğum stajlar ve iş deneyimleri ile destekledim. Orta seviyede İngilizce bilgisine sahibim. Öğrenmeye ve çalışmaya açık bir insan olarak eğitim geçmişime ve kişisel&nbsp;</span><span style=\"letter-spacing: 0\">özelliklerime değer katabileceğim bir pozisyonda deneyim kazanmak ve süreçleri&nbsp;</span><span style=\"letter-spacing: 0\">gözlemlemek istiyorum.</span></p><ul><li><em>Çok Katmanlı Mimari</em> ile proje geliştirebiliyorum. (<strong>N-TIER ARCHITECTURE</strong>).</li><li><em>Django, Flask, ASP.NET Core W</em>eb frameworklerini kullanarak projeler geliştirebiliyorum.</li><li><em>MSSQL, MySQL</em>, <em>Oracle</em> ile veri tabanı yönetimi ve modellemesi yapabiliyorum.</li><li><em>Java, C#, Python</em> dillerinde projeler geliştirebiliyorum.&nbsp;</li><li><em>Devexpress, Windows Form, Pyqt5, Tkinter, Jframe</em> kullanarak masaüstü uygulamalar geliştirebiliyorum.</li><li><em>Windows Server 2012 R2</em> kullanım Orta Seviye <em>MacOS, Windows, Linux (Ubuntu)</em> Bilgisi.</li><li><em>Knime , Weka</em> gibi veri madenciliği araçlarını kullanabiliyorum ve <em>Sklearn, TensorFlow</em> kütüphanelerini kullanarak makine öğrenmesi, veri bilimi projeleri geliştirebiliyorum.</li><li><em>ODI</em> ve<em> SAP BODS</em> araçları kullanarak <em>ETL</em> süreçleri gerçekleştirebiliyorum.</li></ul><br><br><ul><li><strong>Github : https://github.com/mberkayakardev</strong></li><li><strong>Linkedin: https://www.linkedin.com/in/berkayakar/</strong></li></ul>",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(403)
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6522)
                         });
                 });
 
@@ -220,12 +220,12 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         {
                             Id = 1,
                             BornDate = new DateTime(1999, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(487),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6599),
                             CvPath = "/StaticFiles/BerkayAkarCV.pdf",
                             Email = "mberkayakar@outlook.com",
                             IsActive = true,
                             Location = "Bayrampaşa / İstanbul",
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(488),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(6600),
                             Name = "Berkay",
                             Password = "A665A45920422F9D417E4867EFDC4FB8A04A1F3FFF1FA07E998E86F7F7A27AE3",
                             PhoneNumber1 = "+90 534 564 34 10",
@@ -267,225 +267,225 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1265),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7378),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1267),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7378),
                             Name = ".Net Core"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1268),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7381),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1268),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7381),
                             Name = ".Net FrameWork"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1269),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7382),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1269),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7383),
                             Name = "C#"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1270),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7383),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1271),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7384),
                             Name = ".Net Core MVC"
                         },
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1272),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7385),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1272),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7385),
                             Name = ".Net Framework MVC"
                         },
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1273),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7386),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1273),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7387),
                             Name = ".Net Core Web Api"
                         },
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1274),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7387),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1274),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7388),
                             Name = "RestFull "
                         },
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1275),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7389),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1275),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7389),
                             Name = "Windows Forms "
                         },
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1276),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7390),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1277),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7390),
                             Name = "Devexpress"
                         },
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1278),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7391),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1278),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7391),
                             Name = "Ado.Net"
                         },
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1279),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7392),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1279),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7393),
                             Name = "Dapper"
                         },
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1280),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7393),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1280),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7394),
                             Name = "Dapper.Contrib"
                         },
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1281),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7395),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1281),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7395),
                             Name = "Entity Framework"
                         },
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1282),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7396),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1283),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7396),
                             Name = "Sql Server"
                         },
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1284),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7397),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1284),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7397),
                             Name = "T-SQL"
                         },
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1285),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7398),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1285),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7399),
                             Name = "PL-SQL"
                         },
                         new
                         {
                             Id = 17,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1286),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7399),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1286),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7400),
                             Name = "Oracle"
                         },
                         new
                         {
                             Id = 18,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1287),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7401),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1288),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7401),
                             Name = "ODI"
                         },
                         new
                         {
                             Id = 19,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1288),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7402),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1289),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7402),
                             Name = "SAP BODS"
                         },
                         new
                         {
                             Id = 20,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1290),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7403),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1290),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7404),
                             Name = "AOP"
                         },
                         new
                         {
                             Id = 21,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1291),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7404),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1291),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7405),
                             Name = "JavaScript"
                         },
                         new
                         {
                             Id = 22,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1292),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7406),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1292),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7406),
                             Name = "HTML"
                         },
                         new
                         {
                             Id = 23,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1293),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7407),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1294),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7407),
                             Name = "React"
                         },
                         new
                         {
                             Id = 24,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1295),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7408),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1295),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7408),
                             Name = "CSS"
                         },
                         new
                         {
                             Id = 25,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1296),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7409),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1296),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7410),
                             Name = "BOOSTRAP"
                         },
                         new
                         {
                             Id = 26,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1297),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7410),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1298),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7411),
                             Name = "N-Tier Architecture"
                         },
                         new
                         {
                             Id = 27,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1298),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7412),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1299),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7412),
                             Name = "UnitOfWork"
                         },
                         new
                         {
                             Id = 28,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1300),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7413),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1300),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7413),
                             Name = "Repository Desing Pattern"
                         });
                 });
@@ -543,13 +543,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1499),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7502),
                             EducationDescription = "<p>Lisans &ouml;ğrenimim burada ger&ccedil;ekleşti.</p>\r\n<p><strong>Bilgisayar M&uuml;hendisliği</strong> B&ouml;l&uuml;m&uuml; i&ccedil;in <strong>Ortalama : 3.03</strong></p>",
                             EndDate = new DateTime(2021, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/duzceuni.png",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1503),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7508),
                             Name = "Düzce Üniversitesi",
                             StartDate = new DateTime(2017, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -558,13 +558,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1505),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7511),
                             EducationDescription = "<p>İŞ-KUR kapsamında Nitelikli Bilişim Uzmanlığı eğitimi alındı.</p>",
                             EndDate = new DateTime(2022, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/BilisimEgitimMerkezi.png",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1506),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7512),
                             Name = "Bilişim Eğitim Merkezi - IS-KUR",
                             StartDate = new DateTime(2021, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -573,13 +573,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1507),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7513),
                             EducationDescription = "<p><strong>.Net Core</strong> i&ccedil;in <strong>FullStack</strong> Development &uuml;zerine bir eğitim alındı.</p>",
                             EndDate = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/my,.jpg",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1509),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7515),
                             Name = "Bilişim Eğitim Merkezi - IS-KUR",
                             StartDate = new DateTime(2023, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -640,13 +640,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1602),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7596),
                             EducationDescription = "<ul style=\"box-sizing: border-box; margin: 0px; padding: 0px; list-style-type: none; max-height: 1e+06px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 0px; padding: 0px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">Horoz ERP projesi kapsamında N-Tier Achitechture Devexpress, Windows Form, Oracle ve şirket i&ccedil;i geliştirilmiş olan birtakım teknolojiler kullanılarak ERP projesi geliştirildi.</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">Honest &uuml;zerinden kullanıcılara destek verildi.</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">Kurum ihtiya&ccedil;ları doğrultusunda yazılım ekibi ile beraber yazılım geliştirme s&uuml;re&ccedil;lerinde yer alındı.</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">Dağıtım alan dışı, Rota optimizasyonu, Otomatik eskalasyon, E-İhracat projelerinde rol alındı.</li>\r\n</ul>",
                             EndDate = new DateTime(2023, 7, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/hl.png",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1608),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7602),
                             Name = "Horoz Lojistik Kargo Hizmetleri A.Ş.",
                             StartDate = new DateTime(2022, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -655,13 +655,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1610),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7604),
                             EducationDescription = "<ul style=\"box-sizing: border-box; margin: 0px; padding: 0px; list-style-type: none; max-height: 1e+06px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 0px; padding: 0px;\">Firma b&uuml;nyesinde Yazılım M&uuml;hendisi &uuml;nvanı ile .Net Core Web Api, Sql Server teknolojisini kullanarak backend projeleri geliştirdim.</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;\">Turkish Cargo Ara&ccedil; Backend ve Powerşarj projelerinde yer alındı. Geliştirme &ccedil;alışmalarında bulunuldu.</li>\r\n</ul>",
                             EndDate = new DateTime(2022, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/wr.png",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1611),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7605),
                             Name = "White Rose",
                             StartDate = new DateTime(2022, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -670,13 +670,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1613),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7606),
                             EducationDescription = "<ul style=\"box-sizing: border-box; margin: 0px; padding: 0px; list-style-type: none; max-height: 1e+06px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 0px; padding: 0px;\">SAP ABAP &uuml;zerinde eğitimler alındı.&nbsp;</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;\">ABAP &uuml;zerinde programlama, geliştirme ve mod&uuml;llerin kullanımı &ouml;ğrenildi.</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;\">ODI ve BODS ile ETL s&uuml;re&ccedil;leri ger&ccedil;ekleştirildi.&nbsp;</li>\r\n</ul>",
                             EndDate = new DateTime(2021, 9, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/teampro.jpg",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1614),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7607),
                             Name = "TeamPro Danışmanlık Ve Bilişim Hizmetleri",
                             StartDate = new DateTime(2021, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -685,13 +685,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1615),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7608),
                             EducationDescription = "<ul style=\"box-sizing: border-box; margin: 0px; padding: 0px; list-style-type: none; max-height: 1e+06px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 0px; padding: 0px;\">Firma b&uuml;nyesinde u&ccedil;tan uca veri bilimi s&uuml;re&ccedil;leri i&ccedil;erisinde bulunuldu.&nbsp;</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;\">Tensorflow, Sklearn, Matplotlib, Seaborn, Plotly k&uuml;t&uuml;phanelerini kullanarak veri bilimi projeleri ve veri analizleri ger&ccedil;ekleştirildi.&nbsp;</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;\">Knime, Weka ile u&ccedil;tan uca veri bilimi ara&ccedil;larını kullanarak projeler ger&ccedil;ekleştirildi. &Ccedil;ıkan modeller analiz edildi.&nbsp; &nbsp;</li>\r\n<li style=\"box-sizing: border-box; max-height: 1e+06px; list-style-position: inside; list-style-type: disc; margin: 8px 0px 0px; padding: 0px;\">Geliştirilen modelleri sekt&ouml;rde bilindik olan ara&ccedil;lar ile karşılaştırarak istatiksel olarak a&ccedil;ıklayacak makaleler yazdım.</li>\r\n</ul>",
                             EndDate = new DateTime(2021, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/Optiwisdom.jpg",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1616),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7610),
                             Name = "Optiwisdom",
                             StartDate = new DateTime(2021, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -700,13 +700,13 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1617),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7610),
                             EducationDescription = "<p style=\"box-sizing: border-box; margin: 0px 0px 1rem; max-height: 1e+06px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">&bull; Nesne y&ouml;nelimli programlama y&ouml;ntemleri ile oluşturulmuş bir iş s&uuml;recinin katmanlı mimari ile geliştirilmesini g&ouml;zlemledim.</p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 1rem; max-height: 1e+06px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">&bull; Daha &ouml;ncesinde sadece teorik bilgi sahibi olduğum sunucu sistemlerini ve sunucu elemanlarını yakından g&ouml;zlemledim, oluşan hasarlarda hasar tespiti yaptım ve m&uuml;mk&uuml;nse hasarın tamiratını ger&ccedil;ekleştirdim.</p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 1rem; max-height: 1e+06px;  font-family: Rubik-Regular, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; \">&bull;Windows Server 2012 R2 işletim sisteminde Active Directory, Group policy gibi yapılar ile domaine bağlı makinelerin dosya erişimlerinde yetkilendirmeler yaptım, Domain'e bağlı makinelere sanal bir ortam &uuml;zerinde yetkiler verdim.</p>",
                             EndDate = new DateTime(2018, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EndDateFormat = "MM/yyyy",
                             ImagePath = "/StaticFiles/diler.jpg",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1619),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7612),
                             Name = "Diler Holding",
                             StartDate = new DateTime(2018, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             StartDateFormat = "MM/yyyy",
@@ -748,144 +748,144 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1708),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7695),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1709),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7696),
                             ProgressBarValue = 75,
                             SkillName = ".Net Core"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1710),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7697),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1711),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7697),
                             ProgressBarValue = 65,
                             SkillName = ".Net Framework"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1712),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7698),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1712),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7698),
                             ProgressBarValue = 70,
                             SkillName = ".Net Core MVC"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1713),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7699),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1714),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7700),
                             ProgressBarValue = 70,
                             SkillName = ".Net Core Web Api"
                         },
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1714),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7701),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1715),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7701),
                             ProgressBarValue = 75,
                             SkillName = "HTML"
                         },
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1716),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7702),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1716),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7702),
                             ProgressBarValue = 50,
                             SkillName = "CSS"
                         },
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1717),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7703),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1718),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7704),
                             ProgressBarValue = 70,
                             SkillName = "Boostrap"
                         },
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1718),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7705),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1719),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7705),
                             ProgressBarValue = 55,
                             SkillName = "JQuery"
                         },
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1720),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7706),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1720),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7706),
                             ProgressBarValue = 40,
                             SkillName = "JavaScript"
                         },
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1721),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7707),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1721),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7708),
                             ProgressBarValue = 70,
                             SkillName = "C#"
                         },
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1722),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7709),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1723),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7709),
                             ProgressBarValue = 60,
                             SkillName = "Python"
                         },
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1723),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7710),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1724),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7710),
                             ProgressBarValue = 50,
                             SkillName = "Django"
                         },
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1725),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7711),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1725),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7711),
                             ProgressBarValue = 25,
                             SkillName = "Flask"
                         },
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1726),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7712),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1726),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7713),
                             ProgressBarValue = 70,
                             SkillName = "Sql Server - (TSQL)"
                         },
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1727),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7713),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1728),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7714),
                             ProgressBarValue = 75,
                             SkillName = "Oracle - (PL/SQL)"
                         },
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1729),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7756),
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1729),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7756),
                             ProgressBarValue = 60,
                             SkillName = "Knime"
                         });
@@ -899,7 +899,7 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime?>("CreatedDate")
+                    b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
@@ -913,6 +913,17 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ProjectCreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ProjectImageURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShortDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -966,11 +977,11 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1817),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7841),
                             Description = "Linkedin Profilim",
                             IconName = "font-icon icon-linkedin2",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1818),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7841),
                             SocialMediaName = "Linkedin",
                             SocialMediaUrl = "https://www.linkedin.com/in/berkayakar/",
                             SocialMediaUserName = "in/berkayakar"
@@ -978,11 +989,11 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1820),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7845),
                             Description = "Github Profilim",
                             IconName = "font-icon icon-github",
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1821),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7845),
                             SocialMediaName = "Linkedin",
                             SocialMediaUrl = "https://github.com/mberkayakardev",
                             SocialMediaUserName = "in/berkayakar"
@@ -1029,10 +1040,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1903),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7925),
                             Height = 50,
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1905),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7930),
                             Name = ".Net Core",
                             UrlPath = "/StaticFiles/dotnetcore.svg",
                             Width = 50
@@ -1040,10 +1051,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1906),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7933),
                             Height = 50,
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1907),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7933),
                             Name = ".Net Framework",
                             UrlPath = "/StaticFiles/dotnetframework.svg",
                             Width = 50
@@ -1051,10 +1062,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1908),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7934),
                             Height = 50,
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1909),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7935),
                             Name = "C#",
                             UrlPath = "/StaticFiles/csharp.svg",
                             Width = 50
@@ -1062,10 +1073,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1910),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7936),
                             Height = 50,
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1910),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7936),
                             Name = "Python",
                             UrlPath = "/StaticFiles/python.svg",
                             Width = 50
@@ -1073,10 +1084,10 @@ namespace AkarSoftware.Resume.DataAccess.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1911),
+                            CreatedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7937),
                             Height = 50,
                             IsActive = true,
-                            ModifiedDate = new DateTime(2023, 12, 31, 20, 10, 38, 862, DateTimeKind.Local).AddTicks(1912),
+                            ModifiedDate = new DateTime(2024, 1, 1, 15, 49, 19, 674, DateTimeKind.Local).AddTicks(7938),
                             Name = "Django",
                             UrlPath = "/StaticFiles/django.svg",
                             Width = 50

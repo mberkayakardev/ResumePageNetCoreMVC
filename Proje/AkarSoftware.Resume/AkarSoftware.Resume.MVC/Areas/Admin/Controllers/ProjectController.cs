@@ -1,4 +1,6 @@
-﻿using AkarSoftware.Resume.Dtos.ProjectDtos;
+﻿using AkarSoftware.Resume.Business.Abstract;
+using AkarSoftware.Resume.Dtos.ProjectDtos;
+using AkarSoftware.Resume.MVC.Extentions.Controllers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +10,12 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
     [Authorize(Roles ="Admin")]
     public class ProjectController : Controller
     {
+        private readonly IProjectService _ProjectService;
+        public ProjectController(IProjectService projectService)
+        {
+            _ProjectService = projectService;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -22,7 +30,8 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
         [HttpPost]
 		public async Task<IActionResult> CreateProject(ProjectCreateDto dto)
 		{
-			return View();
+            var result = await _ProjectService.CreateNewProject(dto);
+            return this.CostumeRedirectToAction<ProjectCreateDto>(result, dto, new RedirectToActionResult("Index", "Home", new { Area = "Admin" }), "Admin/Project/CreateProject");
 		}
 
 

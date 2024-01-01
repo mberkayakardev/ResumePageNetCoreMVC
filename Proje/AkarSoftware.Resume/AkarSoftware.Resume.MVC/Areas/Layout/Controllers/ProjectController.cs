@@ -1,14 +1,30 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AkarSoftware.Resume.Business.Abstract;
+using AkarSoftware.Resume.Dtos.ProjectDtos;
+using AkarSoftware.Resume.MVC.Extentions.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AkarSoftware.Resume.MVC.Areas.Layout.Controllers
 {
 	[Area("Layout")]
 	public class ProjectController : Controller
 	{
-		[Route("/projects")]
-		public IActionResult Index()
+		private readonly IProjectService projectService;
+        public ProjectController(IProjectService projectService)
+        {
+            this.projectService = projectService;
+        }
+
+        [Route("/projects")]
+		public async Task<IActionResult> Index()
 		{
-			return View();
+			var result = await projectService.GetActiveProjects();
+			return this.CostumeView<List<ProjectListDto>>(result, "index");
 		}
-	}
+        [Route("/projects/{id}")]
+        public async Task<IActionResult> GetByid(int id)
+        {
+            var result = await projectService.GetActiveProjectById(id);
+            return this.CostumeView<ProjectListDto>(result, "detail");
+        }
+    }
 }

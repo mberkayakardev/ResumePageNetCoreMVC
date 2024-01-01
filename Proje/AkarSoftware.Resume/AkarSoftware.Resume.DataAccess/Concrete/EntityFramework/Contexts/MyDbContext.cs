@@ -28,7 +28,6 @@ namespace AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.Contexts
 		public DbSet<Project> Projects { get; set; }
 		public DbSet<SocailMedias> SocailMedias { get; set; }
 		public DbSet<Technologies> Technologies { get; set; }
-
 		#endregion
 
 	}
