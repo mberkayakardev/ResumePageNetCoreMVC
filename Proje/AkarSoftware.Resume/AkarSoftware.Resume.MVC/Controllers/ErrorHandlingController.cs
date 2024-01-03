@@ -7,13 +7,16 @@ namespace AkarSoftware.Resume.MVC.Controllers
         [Route("/exception")]
         public IActionResult ExceptionHandling()
         {
-            return View();
+            return View("500");
         }
 
-		[Route("/Error/{statusCode}")]
-		public IActionResult Errors(int statusCode)
+        [Route("/Error/{statusCode}")]
+        public IActionResult Errors(int statusCode)
         {
-            return View("404");
+            if (statusCode == 404)
+                return View("404");
+
+            return View("500");
         }
     }
 }

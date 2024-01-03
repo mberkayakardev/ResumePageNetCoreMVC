@@ -3,13 +3,14 @@ using AkarSoftware.Resume.Core.DataAccess.EntityFramework.Concrete;
 using AkarSoftware.Resume.Core.Entities.Abstract;
 using AkarSoftware.Resume.DataAccess.Abstract;
 using AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.Contexts;
+using AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.Repositories;
 
 namespace AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
         #region Costume Services
-
+        public IAbilityRepository AbilityRepository => new AbilityRepository(_Context);
         #endregion
         private readonly MyDbContext _Context;
         public UnitOfWork(MyDbContext context)

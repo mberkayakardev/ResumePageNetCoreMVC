@@ -1,4 +1,5 @@
 ﻿using AkarSoftware.Resume.Business.Abstract;
+using AkarSoftware.Resume.Core.DataAccess.EntityFramework.ComplexTypes;
 using AkarSoftware.Resume.Core.Utilities.Results.BaseResults;
 using AkarSoftware.Resume.Core.Utilities.Results.ComplexTypes;
 using AkarSoftware.Resume.Core.Utilities.Results.CostumeResults;
@@ -31,5 +32,20 @@ namespace AkarSoftware.Resume.Business.Concrete.Managers
 
 			return new DataResult<AboutMeListDto>(Dto, ResultStatus.Success);
 		}
-	}
+
+        public async Task<IDataResult<List<AboutMeListDto>>> GetAllAboutMeWithDeleted()
+        {
+            var repository = _UnitOfWork.GetGenericRepository<AboutMe>();
+            var result = await repository.GetAllAsync(where : null, true, x=> x.ModifiedDate, OrderByEnum.Descanding); // Son güncellediğim en üste gelsin diye 
+            if (result == null)
+                return new NotFoundResult<List<AboutMeListDto>>(ProcessResult.NotFound);
+
+            var Dto = _Mapper.Map<List<AboutMeListDto>>(result);
+
+            if (Dto == null)
+                return new MappingError<List<AboutMeListDto>>(ProcessResult.MappingError);
+
+            return new DataResult<List<AboutMeListDto>>(Dto, ResultStatus.Success);
+        }
+    }
 }

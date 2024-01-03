@@ -7,6 +7,7 @@ namespace AkarSoftware.Resume.Business.Abstract
     {
         Task<IDataResult<AppUserListDto>> GetUserForPersonelCard();
         Task<IResult> LoginService(LoginUserDto dto);
+        Task<IResult> LogoutService();
 
 
     }

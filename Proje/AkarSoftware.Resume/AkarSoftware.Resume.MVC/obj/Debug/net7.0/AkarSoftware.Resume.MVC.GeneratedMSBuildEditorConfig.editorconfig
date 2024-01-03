@@ -18,12 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/AboutMe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRNZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Home/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Platform/getbyid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxhdGZvcm1cZ2V0YnlpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Platform/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxhdGZvcm1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Project/CreateProject.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvamVjdFxDcmVhdGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Shared/PartialViews/ThemeSwitcher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xUaGVtZVN3aXRjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Shared/PartialViews/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/_ViewImports.cshtml]
@@ -108,6 +128,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Views/Shared/404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXDQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Views/Shared/500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXDUwMC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Views/Shared/_AdminLayout.cshtml]

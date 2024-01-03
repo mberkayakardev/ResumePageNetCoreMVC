@@ -1,0 +1,51 @@
+﻿@model List<AbilityListDto>
+
+<h1 class="text-center"> Platformlar Paneli </h1>
+<br />
+
+<table class="table table-striped table-dark text-center">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name </th>
+            <th scope="col">Açıklama </th>
+            <th scope="col">Oluşturma Tarihi </th>
+            <th scope="col">Güncelleme Tarihi </th>
+            <th scope="col">Sıralama </th>
+            <th scope="col">Aktif - Pasif </th>
+            <th scope="col">Resim</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count != 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th scope="row">@item.Name</th>
+                    <td>@(item.Description.Length > 200 ? item.Description.Substring(0, 200).ToString() + " ... " : item.Description) </td>
+                    <td>@item.CreatedDate</td>
+                    <td>@item.ModifiedDate</td>
+                    <td>@item.OrderNumber</td>
+                    <td>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="customSwitches" @(item.IsActive ? "Checked" : "")>
+                            <label class="custom-control-label" for="switchlabel"> @(item.IsActive ? "Açık" : "Kapalı")</label>
+                        </div>
+                    </td>
+                    <td> <img src="@item.UrlPath"  width="100px" height="100px" /> </td>
+                    <td><a asp-area="Admin" asp-controller="Platform" asp-action="GetById" asp-route-id="@item.Id" class="btn btn-warning"> Güncelle  </a></td>
+                    <td><a class="btn btn-danger"> Sil </a></td>
+                </tr>
+            }
+        }
+        else
+        {
+            <p> Herhangi bir About Me yazısı bulunamadı</p>
+        }
+    </tbody>
+
+
+</table>
+

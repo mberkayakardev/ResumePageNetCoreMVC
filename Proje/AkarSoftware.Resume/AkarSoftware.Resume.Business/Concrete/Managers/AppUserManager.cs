@@ -68,10 +68,16 @@ namespace AkarSoftware.Resume.Business.Concrete.Managers
                     IsPersistent = dto.RememberMe
                 };
                 await _httpContextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
-                
+
                 return new Result(ResultStatus.Success, "Giriş Başarılı Hoşgeldiniz");
             }
             return new Result(ResultStatus.ValidationError, "Eksik Kullanıcı Bilgileri mevcut", result.GetErrors());
+        }
+
+        public async Task<IResult> LogoutService()
+        {
+            await _httpContextAccessor.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return new Result(ResultStatus.Success, "Çıkış Gerçekleştirildi");
         }
     }
 }

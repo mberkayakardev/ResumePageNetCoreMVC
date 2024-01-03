@@ -28,9 +28,12 @@ if (app.Environment.IsDevelopment())
 	app.UseDeveloperExceptionPage();
 else
 {
-	app.UseExceptionHandler("/exception");
-	app.UseHsts(); // Http yönlendirmeyi zorunlu kılmak için eklenmiştir. 
+    app.UseExceptionHandler("/exception");
+    app.UseHsts(); // Http yönlendirmeyi zorunlu kılmak için eklenmiştir. 
 }
+// Costume Status Page
+app.UseStatusCodePagesWithReExecute("/Error/{0}"); // Costume Exception Handler
+
 
 // NToastNotify için eklendi
 app.UseNToastNotify();
@@ -57,8 +60,6 @@ app.UseAuthorization();
 // Costume Middlewares 
 app.AddCostumeMiddlewares();
 
-// Endpoint (conversational)
-app.UseStatusCodePagesWithReExecute("/Error/{0}"); // Costume Exception Handler
 
 
 app.UseEndpoints(e =>

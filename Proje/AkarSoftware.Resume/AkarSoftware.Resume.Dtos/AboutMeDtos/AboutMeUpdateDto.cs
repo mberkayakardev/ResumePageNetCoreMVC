@@ -10,5 +10,6 @@ namespace AkarSoftware.Resume.Dtos.AboutMeDto
         public DateTime ModifiedDate { get; set; }
         public string Description { get; set; }
 
+
     }
 }

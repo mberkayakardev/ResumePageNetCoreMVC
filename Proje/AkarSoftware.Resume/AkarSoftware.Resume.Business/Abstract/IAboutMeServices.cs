@@ -3,8 +3,10 @@ using AkarSoftware.Resume.Dtos.AboutMeDto;
 
 namespace AkarSoftware.Resume.Business.Abstract
 {
-	public interface IAboutMeServices
+    public interface IAboutMeServices
     {
 		Task<IDataResult<AboutMeListDto>> GetAboutMeForPersonelCard();
-	}
+        Task<IDataResult<List<AboutMeListDto>>> GetAllAboutMeWithDeleted();
+
+    }
 }

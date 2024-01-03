@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [Area("Admin")]
-    [Authorize(Roles ="Admin")]
     public class ProjectController : Controller
     {
         private readonly IProjectService _ProjectService;

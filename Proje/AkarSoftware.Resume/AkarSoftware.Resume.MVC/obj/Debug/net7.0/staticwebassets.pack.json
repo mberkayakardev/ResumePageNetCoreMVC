@@ -33,8 +33,20 @@
       "PackagePath": "staticwebassets\\404\\style.css"
     },
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\084c2081-ee00-4fe1-8b31-fdb187c64103.webp",
+      "PackagePath": "staticwebassets\\StaticFiles\\084c2081-ee00-4fe1-8b31-fdb187c64103.webp"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\1baa8770-ed99-4e9f-8434-ab9b8b058c97.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\1baa8770-ed99-4e9f-8434-ab9b8b058c97.png"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\6a6663ce-f080-4951-aaed-44f3aacedc1b.png",
       "PackagePath": "staticwebassets\\StaticFiles\\6a6663ce-f080-4951-aaed-44f3aacedc1b.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\76afe031-6b2c-4a29-8875-fa86024afe7d.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\76afe031-6b2c-4a29-8875-fa86024afe7d.jpg"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\BerkayAkarCV.pdf",
@@ -53,8 +65,16 @@
       "PackagePath": "staticwebassets\\StaticFiles\\ProfilFoto.jpg"
     },
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\a1bf552b-bf8f-4f12-9253-f57096e35f6b.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\a1bf552b-bf8f-4f12-9253-f57096e35f6b.png"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\api.png",
       "PackagePath": "staticwebassets\\StaticFiles\\api.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\be13843a-8079-4dc0-bd9e-d2d11d3629be.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\be13843a-8079-4dc0-bd9e-d2d11d3629be.png"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\c#.svg",
@@ -89,12 +109,24 @@
       "PackagePath": "staticwebassets\\StaticFiles\\dotnetframework.svg"
     },
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\download.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\download.png"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\duzceuni.png",
       "PackagePath": "staticwebassets\\StaticFiles\\duzceuni.png"
     },
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\e0772a68-0a85-4783-bb3a-3bb5619dc1e9.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\e0772a68-0a85-4783-bb3a-3bb5619dc1e9.png"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\e4a2385c-43f7-439d-9252-e75bfd5245e0.png",
       "PackagePath": "staticwebassets\\StaticFiles\\e4a2385c-43f7-439d-9252-e75bfd5245e0.png"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\f21e8935-097d-43a2-8e41-7df33b2f0b3d.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\f21e8935-097d-43a2-8e41-7df33b2f0b3d.jpg"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\f55f5d38-faab-4e5b-9c21-f6f417a12219.png",

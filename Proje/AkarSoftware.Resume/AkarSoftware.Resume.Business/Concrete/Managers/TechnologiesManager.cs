@@ -10,12 +10,28 @@ using static AkarSoftware.Resume.Business.Concrete.ConstVerables.Messages;
 
 namespace AkarSoftware.Resume.Business.Concrete.Managers
 {
-    public class TechnologiesManager: BaseManager, ITechnologiesService
+    public class TechnologiesManager : BaseManager, ITechnologiesService
 	{
         public TechnologiesManager(IUnitOfWork uow, IMapper mapper) : base(mapper, uow)
         {
             
         }
+
+        public async Task<IDataResult<List<TechnologiesListDto>>> GetAllTechnologiesWithDeleted()
+        {
+            var repository = _UnitOfWork.GetGenericRepository<Technologies>();
+            var result = await repository.GetAllAsync();
+            if (result == null)
+                return new NotFoundResult<List<TechnologiesListDto>>(ProcessResult.NotFound);
+
+            var Dto = _Mapper.Map<List<TechnologiesListDto>>(result);
+
+            if (Dto == null)
+                return new MappingError<List<TechnologiesListDto>>(ProcessResult.MappingError);
+
+            return new DataResult<List<TechnologiesListDto>>(Dto, ResultStatus.Success);
+        }
+
         public async Task<IDataResult<List<TechnologiesListDto>>> GetTechnologiesForPersonelCard()
 		{
 			var repository = _UnitOfWork.GetGenericRepository<Technologies>();

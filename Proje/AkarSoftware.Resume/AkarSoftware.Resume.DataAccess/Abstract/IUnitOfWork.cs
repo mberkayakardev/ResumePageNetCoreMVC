@@ -6,7 +6,7 @@ namespace AkarSoftware.Resume.DataAccess.Abstract
     public interface IUnitOfWork
     {
         #region Repositories 
-        //IProductRepository ProductRepository { get; }  // Costume Repositoryler Property şeklinde eklenmelidir. Burada bu
+        IAbilityRepository AbilityRepository { get; }
         #endregion
 
         public IEfGenericRepository<T> GetGenericRepository<T>() where T : class, IEntity, new();

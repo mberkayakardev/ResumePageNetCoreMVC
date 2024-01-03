@@ -12,6 +12,7 @@ namespace AkarSoftware.Resume.Dtos.AbilityDtos
         public int OrderNumber { get; set; }
         public string UrlPath { get; set; }
         public string Name { get; set; }
+        public List<int> OrderNumbers { get; set; }
 
 
 	}

@@ -22,7 +22,7 @@
                                 <div class="col-lg-10 col-md-12">
                                     <h5 class="title title--h5 timeline__title">@item.Name</h5>
                                     <h6 class="title title--h6 timeline__title">@Html.Raw(item.SubName)</h6>
-                                    <span class="timeline__period"> @(StartAndEndDateHelper.BaslangicBitisDonum(item.StartDate, item.EndDate, item.StartDateFormat, item.EndDateFormat)) </span>
+                                    <span class="timeline__period"> @(ViewHelpers.BaslangicBitisDonum(item.StartDate, item.EndDate, item.StartDateFormat, item.EndDateFormat)) </span>
                                     <p class="timeline__description">@Html.Raw(item.EducationDescription)</p>
                                 </div>
                             </div>
