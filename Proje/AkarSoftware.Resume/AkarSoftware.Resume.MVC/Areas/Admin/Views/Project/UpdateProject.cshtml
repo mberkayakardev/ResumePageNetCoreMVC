@@ -1,0 +1,71 @@
+﻿@model ProjectUpdateDto
+@section style {
+
+    <script src="https://cdn.tiny.cloud/1/vzf7ve9wqqox74jnlwl0kgqt75adziem7vqxli0jnw32zp3l/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+    </script>
+}
+<div class="col-12">
+
+    <h2 class="text-center"> Proje Oluşturma Sayfası</h2>
+    <hr />
+    <br />
+
+    <form asp-action="UpdateProject" asp-controller="Project" asp-area="Admin" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+            <label for="inputAddress">Proje Adı <span class="text-danger" asp-validation-for="@Model.Name">*</span> </label>
+            <input asp-for="@Model.Name" type="text" class="form-control" placeholder="Proje Adı Giriniz ">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Projeye açıklaması  <span class="text-danger" asp-validation-for="@Model.Description">*</span></label>
+            <input asp-for="@Model.ShortDescription " class="form-control" id="inputAddress" placeholder="Description ">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Proje Açıklaması  <span class="text-danger" asp-validation-for="@Model.Description">*</span> </label>
+            <textarea rows="30" asp-for="@Model.Description" class="form-control" id="mytextarea" placeholder="Projeye bu aşamada açıklama girilecektir. "></textarea>
+        </div>
+
+        <div class="mb-5">
+            <div class="row">
+
+                @if (Model.ProjectImageURL != null)
+                {
+                    <div class="col-3">
+                        <label for="PrevImage">Önceki Resim <i>  (seçim yapmazsanız bu resim kalacak): <span class="text-danger" asp-validation-for="@Model.ProjectImageURL">*</span></i></label>
+                        <img id="PrevImage" name="PrevImage" src="@Model.ProjectImageURL" style="height:100%; width:100%;" />
+                        <input asp-for="@Model.ProjectImageURL" type="hidden" />
+                    </div>
+                }
+
+                <div class="col-7">
+                    <label for="Title">Resim: <span class="text-danger" asp-validation-for="@Model.File">*</span></label>
+                    <input type="file" asp-for="@Model.File" class="form-control" />
+                </div>
+                <div class="col-2">
+                    <div class="custom-control custom-switch">
+                        <input  asp-for="@Model.IsActive" type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1"> Aktif / Pasif </label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+            <label for="inputAddress">Proje Oluşturma Tarihi  <span class="text-danger" asp-validation-for="@Model.ProjectCreateDate">*</span></label>
+            <input asp-for="@Model.ProjectCreateDate" class="form-control" placeholder=" Tarih Seçimi Yapınız "></input>
+        </div>
+        <div asp-validation-summary="All">
+        </div>
+        <button type="submit" class="btn btn-primary">Proje Kaydı </button>
+    </form>
+</div>
+
+@*
+<form method="post">
+    <textarea id="mytextarea">Hello, World!</textarea>
+</form> *@

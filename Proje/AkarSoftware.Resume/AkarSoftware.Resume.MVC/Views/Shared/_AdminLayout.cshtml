@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;family=Roboto&amp;display=swap" />
     <link rel="stylesheet" href="~/Theme/Admin/codervent.com/syntrans/demo/vertical/assets/css/icons.css" />
     <link rel="stylesheet" href="~/Theme/Admin/codervent.com/syntrans/demo/vertical/assets/css/app.css" />
-     
+
     @RenderSection("style", false)
 </head>
 
@@ -94,7 +96,58 @@
     <script src="~/Theme/Admin/codervent.com/syntrans/demo/vertical/assets/plugins/metismenu/js/metisMenu.min.js"></script>
     <script src="~/Theme/Admin/codervent.com/syntrans/demo/vertical/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
     <script src="~/Theme/Admin/codervent.com/syntrans/demo/vertical/assets/js/app.js"></script>
-     
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    <script>
+
+        function confirmSubmit() {
+            var result = confirm("Formu göndermek istediğinize emin misiniz?");
+
+            if (result) {
+                document.getElementById("myForm").submit();
+            } else {
+                alert("Form gönderme iptal edildi.");
+            }
+        }
+    </script>
+@* 
+    <script>
+        $(document).ready(function () {
+            let url = '@Url.Action("MainterenceModeInformation", "Home" )';
+            $.ajax({
+                type: 'GET',
+                url: url,
+                beforeSend: function () {
+                    $("#Mainterence").css("display", "none");
+                    $('#waiting').css("display", "flex")
+                },
+                contentType: false,
+                cache: false,
+                success: function (response) {
+
+                    $('#waiting').css("display", "none");
+
+                    if (response === true) {
+
+                    }
+
+                    $("#categoryScreen").css("display", "block");
+
+                },
+                error: function (error) {
+                    console.log("gelen response : ", response)
+                    $('#loadingCategoryScreen').css("display", "none")
+                    $("#categoryScreen").css("display", "block");
+                }
+
+
+            })
+
+        });
+    </script>
+ *@
+
+
     @RenderSection("script", false)
     @await Component.InvokeAsync("NToastNotify")
 

@@ -5,7 +5,7 @@ using NToastNotify;
 
 namespace AkarSoftware.Resume.MVC.Extentions.Controllers
 {
-	public static class ControllerExtentions
+    public static class ControllerExtentions
 	{
 		public static IActionResult CostumeRedirectToAction<T>(this Controller controller, Core.Utilities.Results.BaseResults.IResult result, T DtoDatas, RedirectToActionResult redirectParameter, string Anliklink)
 		{
@@ -46,24 +46,55 @@ namespace AkarSoftware.Resume.MVC.Extentions.Controllers
 						return controller.RedirectToAction(logindto.ReturnUrl);
 					}
 				}
-
+				toastNotificationService.AddSuccessToastMessage(result.Messages);
 				return redirectParameter;
 			}
 
 
 		}
 
+        public static IActionResult CostumeRedirectToAction(this Controller controller, Core.Utilities.Results.BaseResults.IResult result, RedirectToActionResult redirectParameter, string Anliklink)
+        {
+            var toastNotificationService = controller.HttpContext.RequestServices.GetRequiredService<IToastNotification>();
+
+            if (result.Status == ResultStatus.ValidationError)
+            {
+                foreach (var item in result.ValidationErrors)
+                {
+                    controller.ModelState.AddModelError(item.PropertyName, item.ErrorDescription);
+                }
+                if (!string.IsNullOrEmpty(result.Messages))
+                {
+                    toastNotificationService.AddErrorToastMessage(result.Messages);
+                }
+
+                return controller.View(Anliklink);
+            }
+            else if (result.Status == ResultStatus.Error || result.Status == ResultStatus.NotFound)
+            {
+                if (!string.IsNullOrEmpty(result.Messages))
+                {
+                    toastNotificationService.AddErrorToastMessage(result.Messages);
+                }
+                return controller.View(Anliklink);
+            }
+            else
+            {
+                toastNotificationService.AddSuccessToastMessage(result.Messages);
+
+                return redirectParameter;
+            }
 
 
-		public static IActionResult CostumeView<T>(this Controller controller, Core.Utilities.Results.BaseResults.IDataResult<T> result, string viewname)
+        }
+
+
+
+        public static IActionResult CostumeView<T>(this Controller controller, Core.Utilities.Results.BaseResults.IDataResult<T> result, string viewname)
 		{
 			var toastNotificationService = controller.HttpContext.RequestServices.GetRequiredService<IToastNotification>();
-			if (result.Status == ResultStatus.NotFound)
-			{
-				return controller.NotFound();
-			}
 
-			if (result.Status != ResultStatus.Success)
+            if (result.Status != ResultStatus.Success)
 			{
 				toastNotificationService.AddErrorToastMessage(result.Messages);
 				return controller.View(viewname, result.Data);

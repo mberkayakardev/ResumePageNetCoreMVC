@@ -20,10 +20,11 @@ namespace AkarSoftware.Resume.MVC.Areas.Layout.Controllers
             var result = await projectService.GetActiveProjects();
 			return this.CostumeView<List<ProjectListDto>>(result, "index");
 		}
+
         [Route("/projects/{id}")]
         public async Task<IActionResult> GetByid(int id)
         {
-            var result = await projectService.GetActiveProjectById(id);
+            var result = await projectService.GetProjectById(id);
             return this.CostumeView<ProjectListDto>(result, "detail");
         }
     }

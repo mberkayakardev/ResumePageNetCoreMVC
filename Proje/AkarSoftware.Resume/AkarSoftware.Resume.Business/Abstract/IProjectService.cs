@@ -8,7 +8,11 @@ namespace AkarSoftware.Resume.Business.Abstract
 	{
 
         public Task<IDataResult<List<ProjectListDto>>> GetActiveProjects();
-        public Task<IDataResult<ProjectListDto>> GetActiveProjectById(int id);
+        public Task<IDataResult<List<ProjectListDto>>> GetAllProjectsWithDeleted();
+        public Task<IDataResult<ProjectListDto>> GetProjectById(int id);
+        public Task<IDataResult<ProjectUpdateDto>> GetProjectForUpdateById(int id);
         public Task<IResult> CreateNewProject(ProjectCreateDto dto);
-	}
+        public Task<IResult> UpdateProject(ProjectUpdateDto dto);
+
+    }
 }

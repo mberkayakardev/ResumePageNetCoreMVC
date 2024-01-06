@@ -45,8 +45,8 @@ namespace AkarSoftware.Resume.Business.Concrete.DependencyResolves.MicrosoftIOC
 
             services.Configure<AppSettingsOptions>(x =>
             {
-                x.ConnectionString = configuration.GetSection("AppSettings:ConnectionString").Value.ToString();
-                x.MainterenceMode = Convert.ToBoolean(configuration.GetSection("AppSettings:MainterenceMode").Value);
+                x.ConnectionString = configuration.GetSection("ApplicationSettings:ConnectionStrings").Value.ToString();
+                x.MainterenceMode = Convert.ToBoolean(configuration.GetSection("ApplicationSettings:MainterenceMode").Value);
             });
 
         }

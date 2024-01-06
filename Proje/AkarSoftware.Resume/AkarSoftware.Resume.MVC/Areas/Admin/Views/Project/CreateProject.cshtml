@@ -16,26 +16,32 @@
 
     <form asp-action="CreateProject" asp-controller="Project" asp-area="Admin" enctype="multipart/form-data" method="post">
         <div class="form-group">
-            <label for="inputAddress">Proje Adı </label>
+            <label for="inputAddress">Proje Adı <span class="text-danger" asp-validation-for="@Model.Name">*</span> </label>
             <input asp-for="@Model.Name" type="text" class="form-control" placeholder="Proje Adı Giriniz ">
         </div>
         <div class="form-group">
-            <label for="inputAddress">Projeye açıklaması </label>
+            <label for="inputAddress">Projeye açıklaması <span class="text-danger" asp-validation-for="@Model.ShortDescription">*</span> </label>
             <input asp-for="@Model.ShortDescription " class="form-control" id="inputAddress" placeholder="Description ">
         </div>
         <div class="form-group">
-            <label for="inputAddress">Proje Açıklaması </label>
+            <label for="inputAddress">Proje Açıklaması  <span class="text-danger" asp-validation-for="@Model.Description">*</span> </label>
             <textarea rows="30" asp-for="@Model.Description" class="form-control" id="mytextarea" placeholder="Projeye bu aşamada açıklama girilecektir. "></textarea>
         </div>
         <div class="form-group">
-            <label for="inputAddress">Kapak Resmi </label>
-            <input asp-for="@Model.ProjectImage" type="file" class="form-control" placeholder=" Resim seçimi yapınız "></input>
+            <label for="inputAddress">Kapak Resmi <span class="text-danger" asp-validation-for="@Model.ProjectImage">*</span> </label>
+            <input asp-for="@Model.ProjectImage"  type="file" class="form-control" placeholder=" Resim seçimi yapınız "></input>
         </div>
         <div class="form-group">
-            <label for="inputAddress">Proje Oluşturma Tarihi </label>
+            <label for="inputAddress">Proje Oluşturma Tarihi  <span class="text-danger" asp-validation-for="@Model.ProjectCreateDate">*</span></label>
             <input asp-for="@Model.ProjectCreateDate" class="form-control" placeholder=" Tarih Seçimi Yapınız "></input>
         </div>
 
+        <input asp-for="@Model.CreatedDate" hidden/>
+        <input asp-for="@Model.ModifiedDate" hidden />
+
+        <div asp-validation-summary="All">
+
+        </div>
         <button type="submit" class="btn btn-primary">Proje Kaydı </button>
     </form>
 </div>

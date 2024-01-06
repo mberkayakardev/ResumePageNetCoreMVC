@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AkarSoftware.Resume.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b47d2c1b52dc816a1f92676a67bb6045de7032cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41297b2237250860a8b62bfd76f418ac6fd5d9ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("AkarSoftware.Resume.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AkarSoftware.Resume.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,10 @@
 ﻿<!--sidebar-wrapper-->
+@section style {
+    <link href="https://cdn.jsdelivr.net/npm/@@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+}
+
+
+
 <div class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
 
@@ -30,7 +36,7 @@
             </a>
             <ul>
                 <li>
-                    <a  asp-area="Admin" asp-controller="AboutMe" asp-action="Index"><i class="bx bx-right-arrow-alt"></i>Listeyi Görüntüle</a>
+                    <a asp-area="Admin" asp-controller="AboutMe" asp-action="Index"><i class="bx bx-right-arrow-alt"></i>Listeyi Görüntüle</a>
                 </li>
                 <li>
                     <a asp-area="Admin" asp-controller="Project" asp-action="CreateProject"><i class="bx bx-right-arrow-alt"></i>Yeni Proje Oluştur</a>
@@ -47,7 +53,7 @@
             </a>
             <ul>
                 <li>
-                    <a asp-area="Admin" asp-action="Index" asp-controller="Platform" ><i class="bx bx-right-arrow-alt"></i>Platformları Görüntüle</a>
+                    <a asp-area="Admin" asp-action="Index" asp-controller="Platform"><i class="bx bx-right-arrow-alt"></i>Platformları Görüntüle</a>
                 </li>
                 <li>
                     <a asp-area="Admin" asp-controller="Project" asp-action="CreateProject"><i class="bx bx-right-arrow-alt"></i>Yeni Proje Oluştur</a>
@@ -157,18 +163,33 @@
             </a>
             <ul>
                 <li>
-                    <a href="form-elements.html"><i class="bx bx-right-arrow-alt"></i>Projeleri Görüntüle</a>
+                    <a asp-area="Admin" asp-action="Index" asp-controller="Project"><i class="bx bx-right-arrow-alt"></i>Projeleri Görüntüle</a>
                 </li>
                 <li>
-                    <a href="form-input-group.html"><i class="bx bx-right-arrow-alt"></i>Yeni Proje Ekle</a>
+                    <a asp-area="Admin" asp-action="CreateProject" asp-controller="Project"><i class="bx bx-right-arrow-alt"></i>Yeni Proje Ekle</a>
                 </li>
 
             </ul>
         </li>
-        <button class="btn bg-red btn-white btn-block fixed mt-5"> Bakıma Al </button>
+
+
+        <li id="Mainterence" class="mt-4">
+            <a onclick="displayAlert()" ">
+                <div class="parent-icon">
+                  
+                </div>
+                <div class="menu-title">
+                    <button class="btn btn-success " onclick="confirmSubmit()"> Bakım modundan çıkart </button>
+
+                </div>
+            </a>
+
+        </li>
+
+
 
 
     </ul>
     <!--end navigation-->
 </div>
-<!--end sidebar-wrapper-->
+

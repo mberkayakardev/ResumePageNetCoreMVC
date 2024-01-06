@@ -1,0 +1,55 @@
+﻿@model List<ProjectListDto>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p> Herhangi bir proje bulunamadı </p>
+}
+else
+{
+    <table class="table table-striped table-dark">
+        <thead>
+            <tr>
+                <th scope="col"># Id</th>
+                <th scope="col">Proje Adı </th>
+                <th scope="col">Proje Kapak Resmi</th>
+                <th scope="col">Proje Açıklaması</th>
+                <th scope="col">Oluşturma Tarihi</th>
+                <th scope="col">Güncellenme Tarihi</th>
+                <th scope="col"> Aktif mi </th>
+                <th scope="col"> İşlem  </th>
+
+
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Name</td>
+                    <td>
+                        <img src="@item.ProjectImageURL" width="150px" height="150px" alt=@item.Name />
+                    </td>
+                    <td>@ViewHelpers.StripHtmlTags(item.Description, 300)</td>
+                    <td>@item.CreatedDate.ToString()</td>
+                    <td>@item.ModifiedDate.ToString()</td>
+                    <td>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" @(item.IsActive == true ? "checked" : "") id="customSwitch1">
+                            <label class="custom-control-label" for="customSwitch1"> </label>
+                        </div>
+                    </td>
+
+                    <td>
+                        <a asp-area="Admin" asp-controller="Project" asp-action="UpdateProject" asp-route-id="@item.Id" class="btn btn-warning"> Güncellemek </a>
+                        <a asp-area="Admin" asp-controller="Project" asp-action="DeleteProject" asp-route-id="@item.Id" class="btn btn-danger"> Silmek </a>
+                    </td>
+                </tr>
+            }
+
+          
+        </tbody>
+    </table>
+}

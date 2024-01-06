@@ -26,5 +26,10 @@ namespace AkarSoftware.Resume.MVC.Helpers.ViewHelpers
         {
             return Regex.Replace(html, "<.*?>", string.Empty);
         }
+        public static string StripHtmlTags(string html, int SubstringLengt)
+        {
+            string result = Regex.Replace(html, "<.*?>", string.Empty);
+            return (result.Length > SubstringLengt ? result.Substring(0, SubstringLengt) : result + "...");
+        }
     }
 }

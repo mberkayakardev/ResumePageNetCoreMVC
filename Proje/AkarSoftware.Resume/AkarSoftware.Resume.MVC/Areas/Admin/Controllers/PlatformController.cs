@@ -27,5 +27,8 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
             var result = await _abiliryService.GetAbilitiesForId(id);
             return this.CostumeView<AbilityListDto>(result, "getbyid");
         }
+
+
+
     }
 }
