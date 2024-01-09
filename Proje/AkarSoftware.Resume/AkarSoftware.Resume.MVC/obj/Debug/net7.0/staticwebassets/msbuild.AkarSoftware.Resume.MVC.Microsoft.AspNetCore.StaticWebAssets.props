@@ -240,22 +240,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\76afe031-6b2c-4a29-8875-fa86024afe7d.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\87f6208a-3428-4c7c-8d91-6c523dc8aa41.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>AkarSoftware.Resume.MVC</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/AkarSoftware.Resume.MVC</BasePath>
-      <RelativePath>StaticFiles/87f6208a-3428-4c7c-8d91-6c523dc8aa41.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\87f6208a-3428-4c7c-8d91-6c523dc8aa41.png))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\88a12293-2d4e-4e41-a645-81696a4d304b.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AkarSoftware.Resume.MVC</SourceId>
@@ -687,6 +671,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\f7d7b49a-0d7e-4c7c-9cb8-591c7e2cd718.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\fb41556e-4ebe-496a-8371-19e20a633b09.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AkarSoftware.Resume.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AkarSoftware.Resume.MVC</BasePath>
+      <RelativePath>StaticFiles/fb41556e-4ebe-496a-8371-19e20a633b09.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\fb41556e-4ebe-496a-8371-19e20a633b09.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\StaticFiles\fe51ee5d-9de4-4ef4-af93-c9e241e067ad.jpg))">
       <SourceType>Package</SourceType>

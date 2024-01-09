@@ -25,7 +25,7 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _abiliryService.GetAbilitiesForId(id);
-            return this.CostumeView<AbilityListDto>(result, "getbyid");
+            return this.CostumeView<AbilityUpdateDto>(result, "getbyid");
         }
 
 

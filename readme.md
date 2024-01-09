@@ -59,7 +59,6 @@
 * Html  
 * CSS  
 * Bootstrap
-* SweetAlert2
 * NToastNotify
 * Ajax
 * JQuery 

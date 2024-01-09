@@ -63,5 +63,10 @@ namespace AkarSoftware.Resume.Business.Concrete.Managers
 
             return new DataResult<List<AbilityListDto>>(Dto, ResultStatus.Success);
         }
+
+        Task<IDataResult<AbilityUpdateDto>> IAbiliryService.GetAbilitiesForId(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
