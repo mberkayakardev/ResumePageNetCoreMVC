@@ -13,6 +13,7 @@ namespace AkarSoftware.Resume.Business.Abstract
         public Task<IDataResult<ProjectUpdateDto>> GetProjectForUpdateById(int id);
         public Task<IResult> CreateNewProject(ProjectCreateDto dto);
         public Task<IResult> UpdateProject(ProjectUpdateDto dto);
+        public Task<IResult> DeleteProject(int id);
 
     }
 }

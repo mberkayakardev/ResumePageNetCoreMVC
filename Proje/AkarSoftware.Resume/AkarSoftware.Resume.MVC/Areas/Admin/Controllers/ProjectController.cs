@@ -3,7 +3,6 @@ using AkarSoftware.Resume.Dtos.ProjectDtos;
 using AkarSoftware.Resume.MVC.Extentions.Controllers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
 
 namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
 {
@@ -25,7 +24,7 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> CreateProject()
+        public IActionResult CreateProject()
         {
             return View();
         }
@@ -34,7 +33,7 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
 		public async Task<IActionResult> CreateProject(ProjectCreateDto dto)
 		{
             var result = await _ProjectService.CreateNewProject(dto);
-            return this.CostumeRedirectToAction<ProjectCreateDto>(result, dto, new RedirectToActionResult("Index", "Home", new { Area = "Admin" }), "Admin/Project/CreateProject");
+            return this.CostumeRedirectToAction<ProjectCreateDto>(result, dto, new RedirectToActionResult("Index", "Home", new { Area = "Admin" }), "CreateProject");
 		}
 
         [HttpGet]
@@ -49,6 +48,13 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
         {
             var result = await _ProjectService.UpdateProject(dto);
             return this.CostumeRedirectToAction<ProjectUpdateDto>(result, dto,  new RedirectToActionResult("Index", "Home", new { Area = "Admin" }), "UpdateProject");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> DeleteProject(int id)
+        {
+            var result = await _ProjectService.DeleteProject(id);
+            return RedirectToAction("Index", "Home");
         }
 
 

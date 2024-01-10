@@ -40,16 +40,21 @@
                     </div>
                 }
 
-                <div class="col-7">
+                <div class="col-5">
                     <label for="Title">Resim: <span class="text-danger" asp-validation-for="@Model.File">*</span></label>
                     <input type="file" asp-for="@Model.File" class="form-control" />
                 </div>
                 <div class="col-2">
                     <div class="custom-control custom-switch">
-                        <input  asp-for="@Model.IsActive" type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <input asp-for="@Model.IsActive" type="checkbox" class="custom-control-input" id="customSwitch1">
                         <label class="custom-control-label" for="customSwitch1"> Aktif / Pasif </label>
                     </div>
                 </div>
+                <div class="col-2">
+                    Şirket Projesi: <input asp-for="@Model.ProjectType"   type="radio" value="1" />
+                    Bireysel Proje: <input asp-for="@Model.ProjectType" type="radio" value="2" />
+                </div>
+
             </div>
 
         </div>

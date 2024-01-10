@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UqSuEEIFWxAqeFNrWkhGXBhoc6CaldyUqzmkRuppvK4=",
+  "Hash": "lXx04GTUcV9B1dDDvlijtVEXsaLoRtql1fvr1nKCyuE=",
   "Source": "AkarSoftware.Resume.MVC",
   "BasePath": "_content/AkarSoftware.Resume.MVC",
   "Mode": "Default",
@@ -207,6 +207,25 @@
       "OriginalItemSpec": "wwwroot\\404\\style.css"
     },
     {
+      "Identity": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\045e46a7-01bb-45a2-9054-1dabcc39bf4b.png",
+      "SourceId": "AkarSoftware.Resume.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\",
+      "BasePath": "_content/AkarSoftware.Resume.MVC",
+      "RelativePath": "StaticFiles/045e46a7-01bb-45a2-9054-1dabcc39bf4b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StaticFiles\\045e46a7-01bb-45a2-9054-1dabcc39bf4b.png"
+    },
+    {
       "Identity": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\084c2081-ee00-4fe1-8b31-fdb187c64103.webp",
       "SourceId": "AkarSoftware.Resume.MVC",
       "SourceType": "Discovered",
@@ -224,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\StaticFiles\\084c2081-ee00-4fe1-8b31-fdb187c64103.webp"
+    },
+    {
+      "Identity": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\118c618e-29c2-4b20-ac19-aad04a08ef74.png",
+      "SourceId": "AkarSoftware.Resume.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\",
+      "BasePath": "_content/AkarSoftware.Resume.MVC",
+      "RelativePath": "StaticFiles/118c618e-29c2-4b20-ac19-aad04a08ef74.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StaticFiles\\118c618e-29c2-4b20-ac19-aad04a08ef74.png"
     },
     {
       "Identity": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\1baa8770-ed99-4e9f-8434-ab9b8b058c97.png",

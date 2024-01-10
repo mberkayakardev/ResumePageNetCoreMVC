@@ -7,5 +7,6 @@ namespace AkarSoftware.Resume.Business.Abstract
     public interface IEducationService
     {
         Task<IDataResult<List<EducationListDto>>> GetEducationsActive();
+        Task<IDataResult<List<EducationListDto>>> GetEducationsWithDeleted();
     }
 }

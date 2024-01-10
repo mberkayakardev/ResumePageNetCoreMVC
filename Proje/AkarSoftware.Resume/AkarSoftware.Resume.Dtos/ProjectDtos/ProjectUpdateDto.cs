@@ -15,6 +15,8 @@ namespace AkarSoftware.Resume.Dtos.ProjectDtos
 		public bool IsActive { get; set; }
 		public DateTime ModifiedDate { get; set; }
         public DateTime ProjectCreateDate { get; set; }
+        public int ProjectType { get; set; }
+
 
     }
 }

@@ -18,8 +18,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Github\ResumePage\Proje\AkarSoftware.Resume\AkarSoftware.Resume.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/AboutMe/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRNZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/AboutMe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRNZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/AboutMe/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRNZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Badged/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFkZ2VkXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Badged/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFkZ2VkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Badged/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFkZ2VkXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/ExperianceProgressBar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhwZXJpYW5jZVByb2dyZXNzQmFyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/ExperianceProgressBar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhwZXJpYW5jZVByb2dyZXNzQmFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/ExperianceProgressBar/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhwZXJpYW5jZVByb2dyZXNzQmFyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Github/ResumePage/Proje/AkarSoftware.Resume/AkarSoftware.Resume.MVC/Areas/Admin/Views/Home/index.cshtml]

@@ -25,22 +25,56 @@
     </style>
 }
 
+<div class="pb-2 text-center">
+    <h1 class="title title--h1 first-title  text">Gerçekleştirilen Projeler</h1>
+</div>
+
 <div class="pb-2">
-    <h1 class="title title--h1 first-title title__separate">Gerçekleştirilen Projeler</h1>
+    <h3 class="title title--h1 first-title title__separate ">Kurum Projeleri</h3>
 </div>
 
 <div class="news-grid pb-0">
 
-
     @if (Model != null && Model.Count != 0)
     {
-        @foreach (var item in Model)
+        @foreach (var item in Model.Where(x => x.ProjectType == (int)ProjectTypeEnum.ForCompany).ToList())
         {
             <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
                     <div class="news-item__date ">@(item.ProjectCreateDate.ToString("MM.yyyy"))</div>
                     <a class="news-item__link" asp-action="GetByid" asp-controller="Project" asp-route-id="@item.Id"></a>
                     <img class=" lazyload"  src="@item.ProjectImageURL" alt="" />
+                </div>
+                <div class="news-item__caption">
+                    <h2 class="title title--h4">@item.Name</h2>
+                    <p>@(item.ShortDescription.Length > 50 ? item.ShortDescription.Substring(0, 50) + "..." : item.ShortDescription)</p>
+                </div>
+            </article>
+        }
+    }
+    else
+    {
+        <p> Sistemde Kayıtlı mevcut proje bulunamadı</p>
+    }
+
+</div>
+
+<br />
+<div class="pb-2">
+    <h3 class="title title--h1 first-title title__separate ">Diğer Projeler</h3>
+</div>
+
+<div class="news-grid pb-0">
+
+    @if (Model != null && Model.Count != 0)
+    {
+        @foreach (var item in Model.Where(x => x.ProjectType == (int)ProjectTypeEnum.Personal).ToList())
+        {
+            <article class="news-item box">
+                <div class="news-item__image-wrap overlay overlay--45">
+                    <div class="news-item__date ">@(item.ProjectCreateDate.ToString("MM.yyyy"))</div>
+                    <a class="news-item__link" asp-action="GetByid" asp-controller="Project" asp-route-id="@item.Id"></a>
+                    <img class=" lazyload" src="@item.ProjectImageURL" alt="" />
                 </div>
                 <div class="news-item__caption">
                     <h2 class="title title--h4">@item.Name</h2>

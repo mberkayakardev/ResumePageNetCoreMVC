@@ -13,6 +13,8 @@ namespace AkarSoftware.Resume.Business.Concrete.ValidationRules.Project
             RuleFor(x => x.Description).NotEmpty().NotNull().WithMessage("Lütfen projenize bir alan giriniz.");
             RuleFor(x => x.ShortDescription).NotEmpty().NotNull().WithMessage("Lütfen projenize Kısa Açıklama giriniz.");
             RuleFor(x => x.ProjectImage).NotNull().WithMessage("Lütfen Projenize kapak resmi seçiniz");
+            RuleFor(x => x.ProjectType).Must(x => x == 1 || x == 2).WithMessage("Proje tipi Belirtiniz");
+
 
 
 

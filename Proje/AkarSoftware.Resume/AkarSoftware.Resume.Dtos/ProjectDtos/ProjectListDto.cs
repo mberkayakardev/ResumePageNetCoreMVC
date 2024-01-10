@@ -12,6 +12,8 @@
 		public int Id { get; set; }
 		public bool IsActive { get; set; }
 		public DateTime ModifiedDate { get; set; }
+        public int ProjectType { get; set; }
+
 
     }
 }

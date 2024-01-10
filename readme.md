@@ -60,7 +60,6 @@
 * CSS  
 * Bootstrap
 * NToastNotify
-* Ajax
 * JQuery 
 * Dapper - Dapper Contrib (Eski version klasöründe Dapper ve Dapper contrib içinde bir alternatifi proje mevcut mimarise olarak bu şekil kurgulanır.)
 
@@ -70,3 +69,7 @@
  <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/notfoundpage.png?raw=true" >
  <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/login.png?raw=true" >
  <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/last.png?raw=true" >
+ <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/1.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/2.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/3.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/4.png?raw=true" >

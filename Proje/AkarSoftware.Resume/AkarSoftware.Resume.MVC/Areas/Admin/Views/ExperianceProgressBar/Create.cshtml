@@ -1,0 +1,39 @@
+﻿@model ProgressBarSkillsCreateDto
+
+
+<div class="col-12">
+
+    <h2 class="text-center"> Progressbar Oluşturma Sayfası</h2>
+    <hr />
+    <br />
+
+    <form asp-action="Update" asp-controller="ExperianceProgressBar" asp-area="Admin" method="post">
+
+
+        <div class="form-group">
+            <label for="inputAddress">Yetenek Adı<span class="text-danger" asp-validation-for="@Model.SkillName">*</span> </label>
+            <input type="text"  asp-for="@Model.SkillName" class="form-control" id="mytextarea" placeholder="Yetenek Adı giriniz"></input>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAddress">Yetenek Açılması <span class="text-danger" asp-validation-for="@Model.SkillName">*</span> </label>
+            <input type="number" asp-for="@Model.ProgressBarValue" class="form-control" id="mytextarea" placeholder="Yetenek yüzdesi giriniz"></textarea>
+        </div>
+
+        <div class="col-2">
+            <div class="custom-control custom-switch">
+                <input asp-for="@Model.IsActive" type="checkbox" class="custom-control-input" id="customSwitch2">
+                <label class="custom-control-label" for="customSwitch2"> Aktif / Pasif </label>
+            </div>
+        </div>
+
+        <div asp-validation-summary="All">
+        </div>
+        <button type="submit" class="btn btn-primary">Yetenek Yüzdesi Güncelle</button>
+    </form>
+</div>
+
+
+
+
+

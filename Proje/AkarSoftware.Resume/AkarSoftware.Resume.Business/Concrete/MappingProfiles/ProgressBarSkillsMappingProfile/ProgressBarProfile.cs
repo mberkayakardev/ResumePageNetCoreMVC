@@ -11,7 +11,6 @@ namespace AkarSoftware.Resume.Business.Concrete.MappingProfiles.ProgressBarSkill
             CreateMap<ProgressBarSkills, ProgressBarSkillsCreateDto>().ReverseMap();
             CreateMap<ProgressBarSkills, ProgressBarSkillsUpdateDto>().ReverseMap();
             CreateMap<ProgressBarSkills, ProgressBarSkillsListDto>().ReverseMap();
-
         }
     }
 }

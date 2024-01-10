@@ -32,5 +32,10 @@ namespace AkarSoftware.Resume.Business.Concrete.Managers
 
             return new DataResult<List<EducationListDto>>(Dto, ResultStatus.Success);
         }
+
+        public Task<IDataResult<List<EducationListDto>>> GetEducationsWithDeleted()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

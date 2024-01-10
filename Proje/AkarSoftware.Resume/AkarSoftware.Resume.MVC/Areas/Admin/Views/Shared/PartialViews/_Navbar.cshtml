@@ -127,10 +127,10 @@
             </a>
             <ul>
                 <li>
-                    <a href="component-alerts.html"><i class="bx bx-right-arrow-alt"></i>Alerts</a>
+                    <a asp-action="Index" asp-controller="ExperianceProgressBar" asp-area="Admin" ><i class="bx bx-right-arrow-alt"></i>Yetenekleri Görüntüle</a>
                 </li>
                 <li>
-                    <a href="component-bedges.html"><i class="bx bx-right-arrow-alt"></i>Badge</a>
+                    <a asp-action="Create" asp-controller="ExperianceProgressBar" asp-area="Admin"><i class="bx bx-right-arrow-alt"></i>Yeni Yetenek Kaydı</a>
                 </li>
 
             </ul>
@@ -144,10 +144,10 @@
             </a>
             <ul>
                 <li>
-                    <a href="content-grid-system.html"><i class="bx bx-right-arrow-alt"></i>Grid System</a>
+                    <a asp-area="Admin" asp-controller="Badged" asp-action="Index"><i class="bx bx-right-arrow-alt"></i>Rozet Listesi</a>
                 </li>
                 <li>
-                    <a href="content-typography.html"><i class="bx bx-right-arrow-alt"></i>Typography</a>
+                    <a asp-area="Admin" asp-controller="Badged" asp-action="Create"><i class="bx bx-right-arrow-alt"></i>Yeni Rozet Oluştur</a>
                 </li>
             </ul>
         </li>
@@ -171,21 +171,6 @@
 
             </ul>
         </li>
-
-
-        <li id="Mainterence" class="mt-4">
-            <a onclick="displayAlert()" ">
-                <div class="parent-icon">
-                  
-                </div>
-                <div class="menu-title">
-                    <button class="btn btn-success " onclick="confirmSubmit()"> Bakım modundan çıkart </button>
-
-                </div>
-            </a>
-
-        </li>
-
 
 
 

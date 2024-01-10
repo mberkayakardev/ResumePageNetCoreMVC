@@ -7,6 +7,10 @@ namespace AkarSoftware.Resume.Business.Abstract
     {
 		Task<IDataResult<AboutMeListDto>> GetAboutMeForPersonelCard();
         Task<IDataResult<List<AboutMeListDto>>> GetAllAboutMeWithDeleted();
+        Task<IDataResult<AboutMeUpdateDto>> GetAboutMeWithId(int id);
+        Task<IResult> UpdateAboutMe(AboutMeUpdateDto Dto);
+
+
 
     }
 }

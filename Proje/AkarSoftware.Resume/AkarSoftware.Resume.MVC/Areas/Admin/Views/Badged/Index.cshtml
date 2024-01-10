@@ -1,0 +1,48 @@
+﻿@model List<BadgetListDto>
+
+<h1 class="text-center"> Rozet Paneli </h1>
+<br />
+
+<table class="table table-striped table-dark text-center">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name </th>
+            <th scope="col">Aktif - Pasif </th>
+            <th scope="col">Oluşturma Tarihi </th>
+            <th scope="col">Güncelleme Tarihi </th>
+            <th scope="col"> işlem</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count != 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th scope="row">@item.Name</th>
+                    <td>@item.CreatedDate</td>
+                    <td>@item.ModifiedDate</td>
+                    <td>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="customSwitches" @(item.IsActive ? "Checked" : "")>
+                            <label class="custom-control-label" for="switchlabel"> @(item.IsActive ? "Açık" : "Kapalı")</label>
+                        </div>
+                    </td>
+                    <td><a asp-area="Admin" asp-controller="Badged" asp-action="GetById" asp-route-id="@item.Id" class="btn btn-warning"> Güncelle  </a></td>
+                    <td><a asp-area="Admin" asp-controller="Badged" asp-action="DeleteBadged" asp-route-id="@item.Id" class="btn btn-danger"> Sil  </a></td>
+
+                </tr>
+            }
+        }
+        else
+        {
+            <p> Herhangi bir Yetenek Rozet Kartı bulunamadı</p>
+        }
+    </tbody>
+
+
+</table>
+

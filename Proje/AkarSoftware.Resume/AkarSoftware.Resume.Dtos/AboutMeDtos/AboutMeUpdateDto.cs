@@ -9,6 +9,9 @@ namespace AkarSoftware.Resume.Dtos.AboutMeDto
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }
         public string Description { get; set; }
+        public bool TumAktifKayitlariPasifeAl {  get; set; }
+        public bool TumAktifKayitlariPasifeAlinsimi { get; set; }
+
 
 
     }

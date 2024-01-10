@@ -148,5 +148,14 @@ namespace AkarSoftware.Resume.Business.Concrete.Managers
             }
             return new Result(ResultStatus.ValidationError, "Validasyon Hatası Mevcuttur", validation.GetErrors());
         }
+
+        public async Task<IResult> DeleteProject(int id)
+        {
+            var repository = _UnitOfWork.GetGenericRepository<Project>();
+            var model = await repository.GetAsync(x => x.Id == id);
+            await repository.DeleteAsync(model);
+            await _UnitOfWork.SaveChangesAsync();
+            return new Result(ResultStatus.Success, "Silme işlemi başarılı");
+        }
     }
 }

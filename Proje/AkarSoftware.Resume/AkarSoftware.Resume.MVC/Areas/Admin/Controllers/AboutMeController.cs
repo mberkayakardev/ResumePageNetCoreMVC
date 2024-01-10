@@ -23,5 +23,27 @@ namespace AkarSoftware.Resume.MVC.Areas.Admin.Controllers
             var result = await _aboutMe.GetAllAboutMeWithDeleted();
             return this.CostumeView<List<AboutMeListDto>>(result, "index");
         }
+
+        public async Task<IActionResult> Update(int id)
+        {
+            var result = await _aboutMe.GetAboutMeWithId(id);
+            return this.CostumeView<AboutMeUpdateDto>(result, "Update");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(AboutMeUpdateDto dto)
+        {
+            var result = await _aboutMe.UpdateAboutMe(dto);
+            return this.CostumeRedirectToAction<AboutMeUpdateDto>(result, dto, new RedirectToActionResult("Index", "Home", new { Area = "Admin" }), "Admin/AboutMe/Update/"+dto.Id );
+        }
+
+
+        public IActionResult Create()
+        {
+            return View("Create");
+        }
+
+
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using AkarSoftware.Resume.Entities.Concrete;
+﻿using AkarSoftware.Resume.Core.Entities.Abstract;
+using AkarSoftware.Resume.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -15,6 +16,24 @@ namespace AkarSoftware.Resume.DataAccess.Concrete.EntityFramework.Contexts
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            foreach (var item in ChangeTracker.Entries())
+            {
+                if (item.Entity is BaseEntity EntityReference)
+                {
+                    EntityReference.ModifiedDate = DateTime.Now;
+                    switch (item.State)
+                    {
+                        case EntityState.Added:
+                            EntityReference.CreatedDate = DateTime.Now;
+                            break;
+                    }
+                }
+            }
+            return base.SaveChangesAsync(cancellationToken);
         }
 
         #region Tables 

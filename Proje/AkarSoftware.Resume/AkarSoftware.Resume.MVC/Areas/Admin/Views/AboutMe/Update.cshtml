@@ -1,0 +1,58 @@
+﻿@model AboutMeUpdateDto
+@section style {
+
+    <script src="https://cdn.tiny.cloud/1/vzf7ve9wqqox74jnlwl0kgqt75adziem7vqxli0jnw32zp3l/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+    </script>
+}
+<div class="col-12">
+
+    <h2 class="text-center"> Hakkımda Güncelleme Sayfası</h2>
+    <hr />
+    <br />
+
+    <form asp-action="Update" asp-controller="AboutMe" asp-area="Admin" method="post">
+        <div class="form-group">
+            <label for="inputAddress">Hakkımda Açıklaması  <span class="text-danger" asp-validation-for="@Model.Description">*</span> </label>
+            <textarea rows="30" asp-for="@Model.Description" class="form-control" id="mytextarea" placeholder="Projeye bu aşamada açıklama girilecektir. "></textarea>
+        </div>
+
+        <input type="hidden" value="@Model.Id" />
+
+        <div class="mb-5">
+            @if (Model.TumAktifKayitlariPasifeAl)
+            {
+                <input type="hidden" asp-for="@Model.TumAktifKayitlariPasifeAl">
+                <div class="col-10">
+                    <div class="custom-control custom-switch">
+                        <input asp-for="@Model.TumAktifKayitlariPasifeAlinsimi" type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1"> Başka aktif kayıtlar mevcut. Bu kayıtlar pasife alınsın mı ? </label>
+                    </div>
+                </div>
+
+                <br />
+                <br />
+                <br />
+
+            }
+
+            <div class="col-2">
+                <div class="custom-control custom-switch">
+                    <input asp-for="@Model.IsActive" type="checkbox" class="custom-control-input" id="customSwitch2">
+                    <label class="custom-control-label" for="customSwitch2"> Aktif / Pasif </label>
+                </div>
+            </div>
+        </div>
+        <div asp-validation-summary="All">
+        </div>
+        <button type="submit" class="btn btn-primary">Hakkımda Güncelle</button>
+    </form>
+</div>
+
+
+
+
+

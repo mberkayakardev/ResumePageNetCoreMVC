@@ -33,8 +33,16 @@
       "PackagePath": "staticwebassets\\404\\style.css"
     },
     {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\045e46a7-01bb-45a2-9054-1dabcc39bf4b.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\045e46a7-01bb-45a2-9054-1dabcc39bf4b.png"
+    },
+    {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\084c2081-ee00-4fe1-8b31-fdb187c64103.webp",
       "PackagePath": "staticwebassets\\StaticFiles\\084c2081-ee00-4fe1-8b31-fdb187c64103.webp"
+    },
+    {
+      "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\118c618e-29c2-4b20-ac19-aad04a08ef74.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\118c618e-29c2-4b20-ac19-aad04a08ef74.png"
     },
     {
       "Id": "D:\\Github\\ResumePage\\Proje\\AkarSoftware.Resume\\AkarSoftware.Resume.MVC\\wwwroot\\StaticFiles\\1baa8770-ed99-4e9f-8434-ab9b8b058c97.png",
